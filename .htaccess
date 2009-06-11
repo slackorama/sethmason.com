@@ -4,6 +4,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/(.+[^/])/$ /$1/$2/$3/$4.html [L]
 
+Redirect 301 /atom/ http://feeds2.feedburner.com/sethmason
+Redirect 301 /rss/ http://feeds2.feedburner.com/sethmason
 Redirect 301 /blog/39/resolutions http://sethmason.com/2009/01/06/resolutions.html
 Redirect 301 /blog/38/dojo-snippets-for-emacs http://sethmason.com/2008/12/14/dojo-snippets-for-emacs.html
 Redirect 301 /blog/37/svn-log-made-easy http://sethmason.com/2008/12/01/svn-log-made-easy.html
