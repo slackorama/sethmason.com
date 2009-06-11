@@ -1,0 +1,29 @@
+-*- mode: Org -*-
+
+* Ads
+*** TODO Where to place?
+*** TODO What size?
+*** TODO Above the fold?
+*** TODO Custom search engine (CSE)?
+*** TODO Amazon ads?
+
+* Search
+*** TODO Google custom search engine?
+*** TODO Sitemap
+*** TODO Results page?
+*** TODO Atom and RSS feeds
+
+* Layout
+*** TODO images?
+*** TODO Hire Azriel?
+*** TODO Contact page
+*** TODO Follow me widget? (Twitter, Friendfeed, etc.)
+***** Change name on twitter?
+***** Change name on Friendfeed?
+*** TODO Change licensing?
+*** TODO Move some projects over from Slackorama.com?
+* Mechanics
+*** TODO Set up remote repo
+*** TODO Move off of work laptop and onto personal laptop
+*** TODO Set up git hooks on DH
+

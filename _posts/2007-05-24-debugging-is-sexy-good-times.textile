@@ -1,0 +1,32 @@
+--- 
+title: Debugging Is Sexy Good Times
+tags: 
+- Javascript
+- Firebug
+- Firefox
+txp_id: 14
+layout: post
+txp_url: /blog/14/debugging-is-sexy-good-times
+---
+I love me some ["JSON (JavaScript Object Notation)":http://json.org].  The problem with it is that it's not too human readable when you need to see what it's returning.  Sure you could litter your code with alerts or console.debug (if you are using ["Firebug (Awesome JavaScript debugger)":http://www.getfirebug.com] and ["Firefox (Awesome web browser)":http://www.getfirefox.com] to figure out what values are you getting back.   
+
+But if you've got the Firefox/Firebug setup (and why don't you if you don't?) then you can just use  the Firebug console to display the JSON data. Say for instance you have the following data returned from your service (but imagine it's a bazillion lines long):
+
+notextile. <pre>
+<span class="Identifier">{</span><span class="Constant">&quot;SomeObject&quot;</span>:<span class="Identifier">{</span><span class="Constant">&quot;Attrib1&quot;</span>:<span class="Constant">&quot;foo&quot;</span>,
+               <span class="Constant">&quot;Attrib2&quot;</span>:<span class="Constant">&quot;bar&quot;</span>,<span class="Constant">&quot;SubObject&quot;</span>:
+<span class="Identifier">{</span><span class="Constant">&quot;SubAttrib1&quot;</span>:<span class="Constant">&quot;bar&quot;</span><span class="Identifier">}}}</span>
+</pre>
+
+
+
+Just wrap that in an @eval@ function, plug it into the console and you get back a nice little tree of your data in the DOM view.
+
+!http://sethmason.com/images/5.png!
+
+Now isn't that sexy?
+
+ 
+
+
+ 

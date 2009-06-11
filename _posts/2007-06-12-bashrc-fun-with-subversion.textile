@@ -1,0 +1,38 @@
+--- 
+title: .bashrc Fun With Subversion
+tags: 
+- subversion
+- bash
+txp_id: 17
+layout: post
+txp_url: /blog/17/bashrc-fun-with-subversion
+---
+Do you use Subversion a lot from the command line in bash?  Then this tip is for you.  
+
+Add the following to your .bashrc
+
+notextile. <pre><code><span class="Comment"># svn completion</span>
+_svn <span class="Statement">()</span>
+<span class="Special">{</span>
+    local cur prev
+    <span class="Identifier">COMPREPLY</span>=<span class="Statement">()</span>
+    <span class="Identifier">cur</span>=<span class="PreProc">${</span><span class="PreProc">COMP_WORDS</span><span class="PreProc">[</span>COMP_CWORD<span class="PreProc">]</span><span class="PreProc">}</span>
+    <span class="Identifier">prev</span>=<span class="PreProc">${</span><span class="PreProc">COMP_WORDS</span><span class="PreProc">[</span>COMP_CWORD<span class="Constant">-1</span><span class="PreProc">]</span><span class="PreProc">}</span>
+    <span class="Statement">if</span> <span class="Statement">[</span> <span class="PreProc">$COMP_CWORD</span> <span class="Statement">-eq</span> <span class="Constant">1</span> <span class="Statement">]</span> <span class="Statement">||</span> <span class="Statement">[</span> <span class="Statement">&quot;</span><span class="PreProc">${</span><span class="PreProc">prev</span><span class="Error">:0:1</span><span class="PreProc">}</span><span class="Statement">&quot;</span> <span class="Statement">=</span> <span class="Constant">&quot;-&quot;</span> <span class="Statement">]</span><span class="Statement">;</span> <span class="Statement">then</span>
+        <span class="Identifier">COMPREPLY</span>=<span class="Statement">(</span> <span class="Error">$(</span><span class="Special"> compgen -W </span><span class="Statement">'</span><span class="Constant">add blame cat checkout cleanup commit copy \</span>
+<span class="Constant">        delete diff export help import info list lock log merge mkdir move \</span>
+<span class="Constant">        propdel propedit propget proplist propset resolved revert status \</span>
+<span class="Constant">        switch unlock update</span><span class="Statement">'</span><span class="Special"> </span><span class="PreProc">$cur</span><span class="Special"> </span><span class="Error">)</span><span class="Statement">)</span>
+    <span class="Statement">else</span>
+        <span class="Identifier">COMPREPLY</span>=<span class="Statement">(</span> <span class="Error">$(</span><span class="Special"> compgen -f </span><span class="PreProc">$cur</span><span class="Special"> </span><span class="Error">)</span><span class="Statement">)</span>
+    <span class="Statement">fi</span>
+    <span class="Statement">return</span> <span class="Constant">0</span>
+<span class="Special">}</span>
+ccomplete -F _svn -o default -X '@(*/.svn|.svn)' svn
+</pre></code>
+
+Save your .bashrc, source it (using <code>source .bashrc</code>) and now Subversion commands will complete.  For example, enter <code>svn upd</code> press the Tab key and you'll get <code>svn update</code>.
+
+Think of all the keystrokes you'll be saving.
+
+*Update:* I just found Subversion's own "bash completion script":http://svn.collab.net/repos/svn/trunk/tools/client-side/bash_completion  which has a ton more options.  Mine is easier to maintain. :)

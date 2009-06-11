@@ -1,0 +1,11 @@
+--- 
+title: Just Cuz'
+tags: 
+- lisp
+txp_id: 22
+layout: post
+txp_url: /blog/22/just-cuz
+---
+OK, I've decided that the next programming langauge I learn is Lisp.  I just love all the parenthesis I guess.  An excellent "Lisp tutorial":http://www.gigamonkeys.com/book/ is Peter Siebel's  book "Practical Common Lisp":http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FPractical-Common-Lisp-Peter-Seibel%2Fdp%2F1590592395%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1190332229%26sr%3D8-1&tag=slackorama-20&linkCode=ur2&camp=1789&creative=9325.
+
+Fun stuff.

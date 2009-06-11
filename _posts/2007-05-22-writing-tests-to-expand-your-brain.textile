@@ -1,0 +1,46 @@
+--- 
+title: Writing Tests For Fun And Profit
+tags: 
+- Tests
+- JavaScript
+txp_id: 13
+layout: post
+txp_url: /blog/13/writing-tests-to-expand-your-brain
+---
+p. Learning a new programming language historically starts off with the classic "Hello World" example.  I've probably written a  variation on that a bazillion times.  From there you take more steps into advanced parts of the language.  If you are smart, you save your example programs to refer back to them later. But there's a better way. And that better way is to write test cases that exercise the capabilities of the language you are trying to learn.  This also works for new libraries within a language you are trying to learn.
+
+p. The advantages of writing test cases are plentiful. It gets you writing actual code which helps you remember, they can be usually be run easily, they serve as an extra source of documentation about what you are trying to do  (e.g. "How do I use @gsub@ again? Oh yeah, it's in that string  test I wrote?") and finally writing tests is fun.
+
+*An Example*
+After ignoring it for way too long, I recently started trying out the "Yahoo! User Interface Library (Yahoo! User Interface Library)":http://developer.yahoo.com/yui.  It's a JavaScript library with scads of useful utilities for buidling web applications.  So, I pulled up the documentation and started writing a tests based on what's documented.  Since it's JavaScript, I used "JsUnit (JsUnit is a Unit Testing framework)":http://jsunit.net since I'm used to "JUnit (JUnit -- Java Unit Test framework)":http://www.junit.com on the Java side of things.  And _voila_ we have our first test:
+
+notextile. <pre>
+<span class="Identifier">&lt;</span><span class="Statement">html</span><span class="Identifier">&gt;</span>
+    <span class="Identifier">&lt;</span><span class="Statement">head</span><span class="Identifier">&gt;</span>
+<span class="PreProc">    </span><span class="Identifier">&lt;</span><span class="Statement">title</span><span class="Identifier">&gt;</span><span class="Title">Test Yahoo</span><span class="Identifier">&lt;/</span><span class="Statement">title</span><span class="Identifier">&gt;</span>
+<span class="PreProc">    </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text/javascript&quot;</span><span class="Identifier"> </span>
+<span class="Identifier">        </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;jsUnitCore.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="PreProc">    </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text/javascript&quot;</span><span class="Identifier"> </span>
+<span class="Identifier">        </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;yahoo.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="PreProc">    </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text/javascript&quot;</span><span class="Identifier">&gt;</span>
+<span class="Special">    </span><span class="Comment">&lt;!--</span>
+<span class="Special">        </span><span class="Identifier">function</span><span class="Special"> testIsArray</span>()<span class="Special"> </span><span class="Identifier">{</span>
+<span class="Special">            assertTrue</span>(<span class="Special">YAHOO.lang.isArray</span>(<span class="Identifier">[</span>1<span class="Special">,</span>2<span class="Identifier">]</span>))<span class="Special">;</span>
+<span class="Special">        </span><span class="Identifier">}</span>
+<span class="Special">    </span><span class="Comment">//--&gt;</span>
+<span class="Special">    </span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="Identifier">&lt;/</span><span class="Statement">head</span><span class="Identifier">&gt;</span>
+<span class="Identifier">&lt;</span><span class="Statement">body</span><span class="Identifier">&gt;</span>
+    A test document.
+<span class="Identifier">&lt;/</span><span class="Statement">body</span><span class="Identifier">&gt;</span>
+<span class="Identifier">&lt;/</span><span class="Statement">html</span><span class="Identifier">&gt;</span>
+</pre>
+
+p. (I know it's very simple but I just wanted to get a feel for the first method in the global library and type it so my brain remembered it.)
+
+p. So, now I drop the test file into my test runner and here we have the results:
+
+!http://sethmason.com/images/4.png!
+
+p. Can't you just feel your brain expanding with the possibilities?
+    
