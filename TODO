@@ -7,7 +7,9 @@
 *** TODO Custom search engine (CSE)?
 *** TODO Amazon ads?
 * Search
-*** TODO Google custom search engine?
+*** DONE Google custom search engine?
+    CLOSED: [2009-06-12 Fri 00:16]
+    - State "DONE"       from "TODO"       [2009-06-12 Fri 00:16]
 *** DONE Sitemap
     CLOSED: [2009-06-10 Wed 22:55]
     - State "DONE"       from "TODO"       [2009-06-10 Wed 22:55]
@@ -27,6 +29,7 @@
 *** TODO Change licensing?
 *** TODO Set up a projects page and add to nav
 *** TODO Move some projects over from Slackorama.com?
+*** TODO Breadcrumb
 *** DONE favicon.ico
     CLOSED: [2009-06-10 Wed 22:54]
     - State "DONE"       from "TODO"       [2009-06-10 Wed 22:54]
@@ -36,10 +39,21 @@
     CLOSED: [2009-06-10 Wed 21:54]
     - State "DONE"       from "TODO"       [2009-06-10 Wed 21:54] \\
       set it up on dreamhost
-*** TODO Move off of work laptop and onto personal laptop
+*** DONE Move off of work laptop and onto personal laptop
+    CLOSED: [2009-06-11 Thu 19:58]
+    - State "DONE"       from "TODO"       [2009-06-11 Thu 19:58]
 *** TODO Set up git hooks on DH
-*** TODO Google analytics
-*** TODO Google web master central
+*** DONE Google analytics
+    CLOSED: [2009-06-12 Fri 00:15]
+    - State "DONE"       from "TODO"       [2009-06-12 Fri 00:15]
+*** DONE Google web master central
+    CLOSED: [2009-06-12 Fri 00:15]
+    - State "DONE"       from "TODO"       [2009-06-12 Fri 00:15]
 *** DONE robots.txt
     CLOSED: [2009-06-10 Wed 23:25]
     - State "DONE"       from "TODO"       [2009-06-10 Wed 23:25]
+*** DONE Install Jekyll on laptop
+    CLOSED: [2009-06-12 Fri 00:15]
+    - State "DONE"       from "TODO"       [2009-06-12 Fri 00:15]
+
+*** TODO Set up dojo widget for disqus
