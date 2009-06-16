@@ -12,13 +12,13 @@ I love me some ["JSON (JavaScript Object Notation)":http://json.org].  The probl
 
 But if you've got the Firefox/Firebug setup (and why don't you if you don't?) then you can just use  the Firebug console to display the JSON data. Say for instance you have the following data returned from your service (but imagine it's a bazillion lines long):
 
-notextile. <pre>
-<span class="Identifier">{</span><span class="Constant">&quot;SomeObject&quot;</span>:<span class="Identifier">{</span><span class="Constant">&quot;Attrib1&quot;</span>:<span class="Constant">&quot;foo&quot;</span>,
-               <span class="Constant">&quot;Attrib2&quot;</span>:<span class="Constant">&quot;bar&quot;</span>,<span class="Constant">&quot;SubObject&quot;</span>:
-<span class="Identifier">{</span><span class="Constant">&quot;SubAttrib1&quot;</span>:<span class="Constant">&quot;bar&quot;</span><span class="Identifier">}}}</span>
-</pre>
-
-
+{% highlight javascript %}
+{"SomeObject":{"Attrib1":"foo",
+               "Attrib2":"bar",
+               "SubObject": {"SubAttrib1":"bar"}
+              }
+}
+{% endhighlight %}
 
 Just wrap that in an @eval@ function, plug it into the console and you get back a nice little tree of your data in the DOM view.
 

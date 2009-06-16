@@ -11,21 +11,22 @@ Here's a helfpul tip if you use a couple of different machines and need specific
 
 Just add the following to your ".bashrc":http://en.wikipedia.org/wiki/Bash
 
-notextile. <pre class="code">
-<span class="Comment">## Read Generic RC</span>                                                                            
-<span class="Statement">for</span> rcfile <span class="Statement">in</span> <span class="Statement">&quot;</span><span class="PreProc">$HOME</span><span class="Constant">/.shell/</span><span class="Statement">&quot;</span>*.rc<span class="Statement">;</span>
-<span class="Statement">do</span>                        
-    <span class="Statement">if</span> <span class="Statement">[</span> <span class="Statement">-r</span> <span class="Statement">&quot;</span><span class="PreProc">$rcfile</span><span class="Statement">&quot;</span> <span class="Statement">]</span><span class="Statement">;</span> 
-<span class="Statement">done</span>                        
-</pre>
+{% highlight sh %}
+## Read Generic RC                                                                            
+for rcfile in "$HOME/.shell/"*.rc;
+do                        
+    if [ -r "$rcfile" ]; 
+done
+{% endhighlight %}
 
 Thus, common things are stored in your .bashrc (like aliases, functions, etc.) and things you want on a specific machine are in their own directory.
 
 Then, just put whatever machine specific files you want/need in ~/.shell and name them with .rc.  For instance, I have ~/.shell/smurf.rc that sets up some smurf information.
 
-notextile. <pre class="code">
-<span class="Statement">export</span> <span class="Identifier">FAVORITE_SMURF</span>=<span class="Special">"Poppa Smurf"</span>
-<span class="Statement">export</span> <span class="Identifier">SMURF_LOVER</span>=<span class="Special">$HOME/bin/blue_love</span>  
-</pre>
+{% highlight sh %}
+export FAVORITE_SMURF="Poppa Smurf"
+export SMURF_LOVER=$HOME/bin/blue_love  
+
+{% endhighlight %}
 
 That way, if I ever need something that's specific to a machine, I just drop it in my .shell directory and away we go.

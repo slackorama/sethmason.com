@@ -14,36 +14,37 @@ try avg: 1.372
 
 Note, that you'll need "the Firebug plugin":http://ww.getfirebug.com for "Firefox":http://www.getfirefox.com in order to run this.
 
-notextile. <pre>
-<span class="Type">var</span> tryFunc = <span class="Identifier">function</span> () <span class="Identifier">{</span>
-  try <span class="Identifier">{</span>
-    document.getElementById(<span class="Constant">&quot;fake&quot;</span>).innerHTML = <span class="Constant">&quot;hi there&quot;</span>;
-  <span class="Identifier">}</span> catch (e) <span class="Identifier">{</span>
-    <span class="Comment">// eat it!</span>
-  <span class="Identifier">}</span>
-<span class="Identifier">}</span>
+{% highlight javascript %}
+var tryFunc = function () {
+  try {
+    document.getElementById("fake").innerHTML = "hi there";
+  } catch (e) {
+    // eat it!
+  }
+}
 
-notextile. <span class="Type">var</span> ifFunc = <span class="Identifier">function</span>() <span class="Identifier">{</span>
-  <span class="Type">var</span> el = document.getElementById(<span class="Constant">&quot;fake&quot;</span>);
-  <span class="Statement">if</span> (el) <span class="Identifier">{</span>
-    el.innerHTML = <span class="Constant">&quot;hi there&quot;</span>;
-  <span class="Identifier">}</span>
-<span class="Identifier">}</span>;
+var ifFunc = function() {
+  var el = document.getElementById("fake");
+  if (el) {
+    el.innerHTML = "hi there";
+  }
+};
 
-notextile. <span class="Identifier">function</span> benchmark(name, func) <span class="Identifier">{</span>
-  <span class="Type">var</span> repeats = 1000;
-  <span class="Type">var</span> elapsed = 0;
-  <span class="Type">var</span> startTime =0;
-  <span class="Type">var</span> endTime = 0;
-  <span class="Statement">for</span> (var i=0; i&lt; repeats; i++) <span class="Identifier">{</span>
-    startTime = <span class="Statement">new</span> Date().getTime();
+function benchmark(name, func) {
+  var repeats = 1000;
+  var elapsed = 0;
+  var startTime =0;
+  var endTime = 0;
+  for (var i=0; i< repeats; i++) {
+    startTime = new Date().getTime();
     func.call();
-    endTime = <span class="Statement">new</span> Date().getTime();
+    endTime = new Date().getTime();
     elapsed += (endTime - startTime);
-  <span class="Identifier">}</span>
-  console.log(name + <span class="Constant">&quot; avg: &quot;</span> + (elapsed / repeats ) );
-<span class="Identifier">}</span>
+  }
+  console.log(name + " avg: " + (elapsed / repeats ) );
+}
 
-notextile. benchmark( <span class="Constant">&quot;if&quot;</span>, ifFunc );
-benchmark( <span class="Constant">&quot;try&quot;</span>, tryFunc );
-</pre>
+benchmark( "if", ifFunc );
+benchmark( "try", tryFunc );
+{% endhighlight %}
+

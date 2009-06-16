@@ -20,7 +20,8 @@ Mind you I don't put everything in there, just the important stuff like my shell
 
 Here's what I currently have saved in svn:
 
-notextile. <pre><code>% svn ls http://my.svn.server/svn/home-dir/trunk/
+{% highlight bash %}
+$ svn ls http://my.svn.server/svn/home-dir/trunk/
 .Xdefaults
 .antrc
 .bash_profile
@@ -30,7 +31,7 @@ notextile. <pre><code>% svn ls http://my.svn.server/svn/home-dir/trunk/
 .irbrc
 bin/
 vim_local/
-</code></pre>
+{% endhighlight %}
 
 So now when I'm on a system, I'll have the same look and feel and same functionality as the utilities I use will be available in my @~/bin@ directory.
 

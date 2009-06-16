@@ -12,18 +12,19 @@ Since I started using emacs about two months ago, I've learned quite a bit.  A n
 
 Here's a emacs lisp function I wrote to automate the execution of the script when a template file is saved:
 
-notextile. <pre><span class="Special">(</span><span class="Statement">defun</span> ssm-cheetah-after-save-hook <span class="Special">()</span>
-  <span class="Constant">&quot;After saving a tt file, run the language_update file&quot;</span>
-  <span class="Special">(</span><span class="Statement">if</span> buffer-file-name
-      <span class="Special">(</span><span class="Statement">progn</span>
-        <span class="Special">(</span><span class="Statement">setq</span> is-tt-file <span class="Special">(</span><span class="Statement">numberp</span> <span class="Special">(</span>string-match <span class="Constant">&quot;\.tt$&quot;</span> buffer-file-name<span class="Special">)))</span>
-        <span class="Special">(</span><span class="Statement">if</span> is-tt-file
-            <span class="Special">(</span><span class="Statement">progn</span>
-              <span class="Special">(</span><span class="Statement">setq</span> cmd <span class="Special">(</span>concat <span class="Special">(</span>getenv <span class="Constant">&quot;B&quot;</span><span class="Special">)</span> <span class="Constant">&quot;/bin/YOURSCRIPTHERE --template=&quot;</span><span class="Special">))</span>
-              <span class="Special">(</span>shell-command <span class="Special">(</span>concat cmd buffer-file-name<span class="Special">))</span>
-              <span class="Special">(</span>message <span class="Constant">&quot;Updated template with %s&quot;</span> buffer-file-name<span class="Special">))))))</span>
-<span class="Special">(</span>add-hook <span class="Special">'</span><span class="Identifier">after-save-hook</span> <span class="Special">'</span><span class="Identifier">ssm-cheetah-after-save-hook</span><span class="Special">)</span>
-</pre>
+{% highlight scheme %}
+(defun ssm-cheetah-after-save-hook ()
+  "After saving a tt file, run the language_update file"
+  (if buffer-file-name
+      (progn
+        (setq is-tt-file (numberp (string-match "\.tt$" buffer-file-name)))
+        (if is-tt-file
+            (progn
+              (setq cmd (concat (getenv "B") "/bin/YOURSCRIPTHERE --template="))
+              (shell-command (concat cmd buffer-file-name))
+              (message "Updated template with %s" buffer-file-name))))))
+(add-hook 'after-save-hook 'ssm-cheetah-after-save-hook)
+{% endhighlight %}
 
 What it does, is first defines a function that checks to see if we have a file name, (which should probably always be true since we are saving now that I look at it).  If we do, check to see if the name ends with ".tt."  If it does, pass the name of the file to the shell script and output a message to the user saying the template was updated.  Finally, the function is added to the after save hook.
 
