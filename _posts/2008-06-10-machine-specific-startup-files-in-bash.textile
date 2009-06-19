@@ -7,7 +7,7 @@ txp_id: 30
 layout: post
 txp_url: /blog/30/machine-specific-startup-files-in-bash
 ---
-Here's a helfpul tip if you use a couple of different machines and need specific things set up on a specific machine.
+Here's a helpful tip if you use a couple of different machines and need specific things set up on a specific machine.
 
 Just add the following to your ".bashrc":http://en.wikipedia.org/wiki/Bash
 

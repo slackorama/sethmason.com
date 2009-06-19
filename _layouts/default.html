@@ -38,21 +38,21 @@ disqus_developer: 0
 </head>
 
 <body>
-  <div id="doc4" class="yui-t4 container">
-    <div id="hd" role="banner">
+  <div id="doc4" class="container yui-t4">
+    <div id="hd" role="banner" class="header">
       <h1><a href="/" title="Go to first page">Seth Mason</a></h1>
     </div>
 
     <div id="bd" role="main">
       <div id="yui-main">
         <div class="yui-b">
-          <div class="yui-g">
+          <div class="yui-g content">
             {{ content }}
           </div>
         </div>
       </div>
 
-      <div class="yui-b" role="navigation">
+      <div class="yui-b sidebar" role="navigation">
         <!-- Google Custom Search Element -->
         <div id="cse" style="width:100%;">Loading</div>
 
@@ -61,7 +61,34 @@ disqus_developer: 0
           google.setOnLoadCallback(function(){
             new google.search.CustomSearchControl().draw('cse');
           }, true);
-        </script>        
+        </script>
+
+        <div class="widget">
+          <h3>Follow me</h3>
+            <a href="http://www.friendfeed.com/slackorama">
+              <img src="/images/site/friendfeed_32.png" height="16" width="16"
+              alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a
+              href="http://www.friendfeed.com/slackorama">FriendFeed</a><br />
+            <a href="http://www.linkedin.com/in/sethmason">
+              <img src="/images/site/linkedin_32.png" height="16" width="16"
+              alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a
+              href="http://www.linkedin.com/in/sethmason">LinkedIn</a><br />
+            <a href="http://www.twitter.com/slackorama">
+              <img src="/images/site/Twitter-16x16.png"
+              alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a
+              href="http://www.twitter.com/slackorama">Twitter</a><br />
+            <a href="http://feeds2.feedburner.com/sethmason"
+                      rel="alternate" type="application/rss+xml"><img
+                      src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png"
+                      alt=""
+                      style="vertical-align:middle;border:0"/></a>&nbsp;<a
+                      href="http://feeds2.feedburner.com/sethmason"
+                      rel="alternate" type="application/rss+xml">Subscribe to feed</a></p>
+          </div>
+        </div>
+      </div>
+
+    <div id="ft" role="contentinfo" class="footer">
         <ul>
           <li><a href="/about.html" title="About Seth Mason">About</a></li>
           <li><a href="/contact.html" title="Contact Seth
@@ -71,12 +98,6 @@ disqus_developer: 0
           <li><a href="/terms-of-use.html" title="Terms of Use">Terms
           of Use</a></li>
         </ul>
-
-      </div>
-    </div>
-
-    <div id="ft" role="contentinfo">
-      <p>Footer</p>
     </div>
   </div>
 <script type="text/javascript">

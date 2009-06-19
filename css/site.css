@@ -1,9 +1,16 @@
-body {
-    font-size: 93%; /* 12px */
+html {
     background: #ddd;
 }
 
-a:hover { background: #ddd; }
+body {
+    font-size: 93%; /* 12px */
+    background: #ddd;
+    padding: 15px 0 15px;
+}
+
+h1,h2,h3,strong {
+    font-weight: bold;
+}
 
 h1 {
     font-size: 167%;
@@ -17,16 +24,13 @@ h3 {
     font-size: 123.1%;
 }
 
-strong {
-    font-weight: bold;
-}
-
-p, ul, ol, li { 
+p, ul, ol { 
     margin-bottom: 9px; 
 }
 
 li {
-    list-style-type: square;
+    list-style-type: circle;
+    margin-bottom: 3px;    
     margin-left: 2em;
 }
 
@@ -40,12 +44,25 @@ pre {
 }
 
 /* header */
-#hd a {
-    text-decoration: none;
+.header {
+    padding-bottom:35px;
+    border-bottom: 1px dotted #ddd;
 }
 
-#hd a:hover {
-    text-decoration: underline;
+.header h1 {
+    font-size: 400%;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;    
+}
+
+.header a:hover {
+    text-decoration: none;
 }
 
 .byline {
@@ -56,20 +73,42 @@ pre {
     color: #ddd;
     }
 
-.container {
+#doc4 {
     border: 8px solid black;
     background-color: #fff;
     padding: 10px;
-    margin: 8px 0px 8px 0px;
+}
+
+.content {
+    border-right: 1px dashed #ddd;
+}
+
+.content a:hover { background: #ddd; }
+
+.sidebar h3 {
+    color: #777;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+p
+.sidebar a:hover {
+    text-decoration: none;
 }
 
 .post {
     border-bottom: 1px dashed #ddd;
-    padding: 18px 0 0 0;
+    padding: 10px 10px 12px 0;
 }
 
-.post h3 {
-    font-weight: bold;
+.addthis a:hover { background: #fff }
+
+.footer {
+    padding: 10px 0 0 0;
 }
 
-
+.footer li {
+    list-style: square;
+    float: left;
+}
