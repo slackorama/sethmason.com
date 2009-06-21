@@ -28,8 +28,11 @@ p, ul, ol {
     margin-bottom: 9px; 
 }
 
-li {
+ul {
     list-style-type: circle;
+}
+
+li {
     margin-bottom: 3px;    
     margin-left: 2em;
 }
@@ -45,7 +48,7 @@ pre {
 
 /* header */
 .header {
-    padding-bottom:35px;
+    padding-bottom:15px;
     border-bottom: 1px dotted #ddd;
 }
 
@@ -53,7 +56,6 @@ pre {
     font-size: 400%;
     font-weight: bold;
     letter-spacing: -5px;
-    line-height: 15px;
 }
 
 .header a {
@@ -67,11 +69,11 @@ pre {
 
 .byline {
     color: #888;
-    }
+}
 
 .byline a {
     color: #ddd;
-    }
+}
 
 #doc4 {
     border: 8px solid black;
@@ -98,10 +100,13 @@ p
 }
 
 .post {
-    border-bottom: 1px dashed #ddd;
     padding: 10px 10px 12px 0;
 }
 
+.post li {
+    list-style-type: circle;
+}    
+    
 .addthis a:hover { background: #fff }
 
 .footer {
@@ -112,3 +117,37 @@ p
     list-style: square;
     float: left;
 }
+
+.prev_next {
+    padding: 6px 8px 6px 0px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.prev_next .floated {
+    float:left;
+}
+
+.prev_next .next {
+    text-align: right;
+}
+    
+.widget {
+    padding-bottom: 1.1em;
+}
+
+ul.posts {
+    list-style-type: none;
+}
+
+ul.posts li {
+    line-height: 1.75em;
+}
+
+ul.posts span {
+    color: #ddd;
+    font-family: Monacao, "Courier New", monospace;
+}
+
+div.bordered {
+    border-bottom: 1px dotted #ddd;
+}        

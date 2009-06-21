@@ -1,4 +1,6 @@
 pygments : true
 
+permalink : pretty
+
 maruku:
         use_divs: true

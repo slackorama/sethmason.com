@@ -2,7 +2,9 @@ Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/(.+[^/])/$ /$1/$2/$3/$4.html [L]
+RewriteRule ^tag(/.+) /archive.html#$1 [R,NC]
+
+ErrorDocument 404 /errors/404.html
 
 Redirect 301 /atom/ http://feeds2.feedburner.com/sethmason
 Redirect 301 /rss/ http://feeds2.feedburner.com/sethmason
