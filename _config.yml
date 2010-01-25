@@ -1,6 +1,6 @@
 pygments : true
 
-permalink : pretty
+permalink : date
 
 maruku:
         use_divs: true

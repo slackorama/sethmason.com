@@ -1,11 +1,11 @@
 --- 
-title: Archive
-layout: default
+title: Archives
+layout: page
+type: archive
 ---
-<div class="bordered">
 <ul class="posts">
 {% for post in site.posts %}
-  <li><span id="{{post.date | date: "%Y%m%d" }}">{{ post.date | date_to_string }}</span> &raquo;
+  <li><span id="{{post.date | date: "%Y%m%d" }}">{{ post.date | date_to_string }}</span>
     <a
         href="{{ post.url }}"
         title="{{ post.title | escape }}">{{ post.title }}</a>

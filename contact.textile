@@ -1,8 +1,10 @@
 --- 
 title: Contact
-layout: default
+layout: page
+type: contact
 ---
-<p>Rather than deal with spammers and other nasties out there, I'm opting to route contacts through disqus.  Let's see how this goes, shall we?</p>
+<p>Rather than deal with spammers and other nasties out there, I'm opting to
+route contacts through <a href="http://disqus.com">disqus</a>.  Let's see how this goes, shall we?</p>
 
 <p>If you'd rather contact me through something more private, my email is on the "about":/about.html page.</p>
 

@@ -1,15 +1,26 @@
 --- 
 title: All About Seth Mason
 txp_id: 7
-layout: default
+layout: page
 txp_url: /about.html
+type: about
 ---
 Hi, my name is Seth Mason and this is my personal website.
 
-I'm a Java Software Engineer but I also enjoy writing Perl, JavaScript, CSS and HTML.  I'm also in the midst of learning Ruby.  If you have a question or would like to see my resume, just email me at seth [at] sethmason[dot]com or use my <a href="/contact" title="Contact page">contact page</a>.
+I'm a Java Software Engineer but I also enjoy writing Perl, Python,
+JavaScript, CSS and HTML.  If you have a question or would like to see my
+resume, feel free to drop me a line via  my <a href="/contact" title="Contact page">contact page</a>.
 
 I have worked for Experian Cheetahmail since December of 2007 but nothing on this site is endorsed by them.
 
-<a href="http://www.linkedin.com/in/sethmason" ><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.gif" width="160" height="33" border="0" alt="View Seth Mason's profile on LinkedIn"></a>
+This site is generated using a plain old version of <a
+href="http://wiki.github.com/mojombo/jekyll/">Jekyll</a>, a &quot;blog aware static content generator&quot; written by one of the <a href="http://github.com">Github</a> founders.
 
-<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/seths-blog/embed.js"></script><noscript><a href="http://seths-blog.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+If you find something you like on this site and you feel inclined to toss me a few shekels, consider my <a
+href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fregistry%2Fwishlist%2F2E25HMYEGOT5J&tag=slackorama-20&linkCode=ur2&camp=1789&creative=390957">Amazon
+Wishlist</a>.
+
+
+
+
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/slackorama-20/8004/cf83e974-d98e-4167-b8c4-86d5e3e0b398"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fslackorama-20%2F8004%2Fcf83e974-d98e-4167-b8c4-86d5e3e0b398&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>

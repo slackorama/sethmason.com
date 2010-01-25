@@ -1,45 +1,46 @@
 ---
 layout: default
 show_recent: true
+type: post
 ---
-<div class="post bordered">
-<div class="breadcrumb">
-  <a href="/" title="go home">sethmason.com</a> &raquo;
-  <a href="/archive.html#{{ page.date | date: "%Y%m%d" }}" title="archives">
-    {{ page.date | date: "%d %B %Y" }}</a> &raquo;
-  <strong>{{ page.title }}</strong>
-  </div>
-  <p class="byline">tagged with
-  {% for t in page.tags %}
-  <a href="http://www.google.com/search?q={{ t | escape }}+site:sethmason.com">{{ t }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
 
-  (<a title="Comments for {{ page.title | escape }}" href="{{ page.url }}#disqus_thread"></a>)</p>
-  <p>{{ content }}</p>
+  <section>
+    <article>    
+    <div class="byline">		 
+      <h1>{{ page.title }}</h1>
+      <h6>{{ page.date | date: "%d %B %Y" }}
+      <span><a href="#disqus_thread">Comments</a></span>
+      <span>Tags:   {% for t in page.tags %}
+      <a href="http://www.google.com/search?q={{ t | escape }}+site:sethmason.com">{{ t }}</a>{% if forloop.last == false %},
+      {% endif %}
+      {% endfor %}
+      </span></h6>
+    </div>
+    {{content }}
 
-  <br style="clear:both" />
+    <br style="clear:both" />
 
     <!-- AddThis Bookmark Post Button BEGIN -->
     <div class="addthis"><a
-             href="http://www.addthis.com/bookmark.php?pub=sethmason&amp;url=http://sethmason.com{{page.url | escape }}&amp;title={{page.title|escape}}" title="Bookmark using any bookmark manager!" target="_blank"><img src="http://s3.addthis.com/button0-bm.gif" width="83" height="16" border="0" alt="AddThis Social Bookmark Button" class="noline" /></a>
+                             href="http://www.addthis.com/bookmark.php?pub=sethmason&amp;url=http://sethmason.com{{page.url | escape }}&amp;title={{page.title|escape}}" title="Bookmark using any bookmark manager!" target="_blank"><img src="http://s3.addthis.com/button0-bm.gif" width="83" height="16" border="0" alt="AddThis Social Bookmark Button" class="noline" /></a>
     </div>
     <!-- AddThis Bookmark Post Button END -->
 
-  <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/seths-blog/embed.js"></script><noscript><a href="http://seths-blog.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/seths-blog/embed.js"></script><noscript><a href="http://seths-blog.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-</div>
+  </div>
 
-<div class="prev_next">
-{% if page.previous %}
-<p class="prev {% if page.next %}floated{% endif %}">
-&larr; <a href="{{ page.previous.url }}" title="{{ page.previous.title | escape }}">{{ page.previous.title }}</a></p>
-{% endif %}
-{% if page.next %}
-<p class="next">
-<a href="{{ page.next.url }}" title="{{ page.next.title | escape }}">
-{{ page.next.title }}</a>&rarr;
-</p>
-{% endif %}
-
-
-
-</div>
+  <div class="prev_next">
+    {% if page.previous %}
+    <p class="prev {% if page.next %}floated{% endif %}">
+    &larr; <a href="{{ page.previous.url }}" title="{{ page.previous.title | escape }}">{{ page.previous.title }}</a></p>
+    {% endif %}
+    {% if page.next %}
+    <p class="next">
+      <a href="{{ page.next.url }}" title="{{ page.next.title | escape }}">
+        {{ page.next.title }}</a>&rarr;
+    </p>
+    {% endif %}
+  </div>
+</article>
+</section>

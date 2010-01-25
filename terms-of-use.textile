@@ -1,13 +1,10 @@
 --- 
 title: Terms of Use
 txp_id: 9
-layout: default
+layout: page
 txp_url: /terms-of-use/9/terms-of-use
+type: terms
 ---
-
 All posts are licensed under "Creative Comments Attribution-Noncommercial-Share Alike 3.0 Unported":http://creativecommons.org/licenses/by-nc-sa/3.0/.
 
 Comments are &copy;&nbsp; their original authors.
-
-Some of the images used are licensed by "Quage9":http://www.iconspedia.com/pack/aquaticus-social-1367/ under Creative Commons Attribution-No Derivative Works 3.0 License.
-

@@ -2,12 +2,15 @@ Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^tag(/.+) /archive.html#$1 [R,NC]
+RewriteRule ^tag(/.+)? /archive.html [R,NC]
 
-ErrorDocument 404 /errors/404.html
+ErrorDocument 404 /error/404.html
 
 Redirect 301 /atom/ http://feeds2.feedburner.com/sethmason
 Redirect 301 /rss/ http://feeds2.feedburner.com/sethmason
+Redirect 301 /contact/ http://sethmason.com/contact.html
+Redirect 301 /archive/ http://sethmason.com/archive.html
+Redirect 301 /about/ http://sethmason.com/about.html
 Redirect 301 /blog/39/resolutions http://sethmason.com/2009/01/06/resolutions.html
 Redirect 301 /blog/38/dojo-snippets-for-emacs http://sethmason.com/2008/12/14/dojo-snippets-for-emacs.html
 Redirect 301 /blog/37/svn-log-made-easy http://sethmason.com/2008/12/01/svn-log-made-easy.html

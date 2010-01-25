@@ -6,7 +6,8 @@ txp_id: 39
 layout: post
 txp_url: /blog/39/resolutions
 ---
-I've been mulling these over for the past couple of days but I thought I'd post them to the internets in hopes of injecting some accountability into the whole morass.
+
+I have been mulling these over for the past couple of days but I thought I'd post them to the internets in hopes of injecting some accountability into the whole morass.
 
 * Get knee fixed
 * Go on vacation somewhere besides San Francisco/Oakland or Rhode Island with wife and child
