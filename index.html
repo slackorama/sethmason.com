@@ -3,7 +3,6 @@ layout: default
 type: home
 title: home
 ---
-<section>
 {% for post in site.posts limit:10 %}
             <article>      
                 <div class="byline">		 
@@ -20,4 +19,3 @@ title: home
                 {{post.content }}
             </article>
 {% endfor %}
-</section>
