@@ -43,7 +43,8 @@ th:first-child, td:first-child {padding-left:0;}
 th:last-child, td:last-child {padding-right:0;}
 b, strong, caption, th, thead, dt, legend {font-weight:bold;}
 cite, dfn, em, i {font-style:italic;}
-code, kbd, samp, tt, var {font-family:mono-space, monospace; font-size:12px; line-height:18px; white-space:pre;}
+code,  samp, tt, var {font-family:mono-space, monospace; font-size:12px; line-height:18px; white-space:pre;}
+kbd{padding:2px 4px;white-space:nowrap;color:#000;background:#eee;border-width:1px 3px 3px 1px;border-style:solid;border-color:#ccc #aaa #888 #bbb;}
 code > span {white-space:pre;}
 pre {white-space:pre; background-color:#f8f8f8; padding:18px; margin-top:14px; border:1px solid #e7ecef;}
 del {text-decoration:line-through;}
