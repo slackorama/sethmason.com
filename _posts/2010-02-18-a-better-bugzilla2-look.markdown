@@ -11,9 +11,9 @@ For a variety of reasons, I'm still using version 2 of
 by Bugzilla.  And the interface looks like it's been dead awhile.
 
 But, thanks to
-[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/748) I'm not
+[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/748), I'm not
 stuck with the interface.  Inspired by
-[Jesse Ruderman's TidyBug](http://www.squarefree.com/2009/02/26/tidybug/) I
+[Jesse Ruderman's TidyBug](http://www.squarefree.com/2009/02/26/tidybug/), I
 made my own Greasemonkey script which I'm calling [TidyBz2](/userscripts/tidybz2.user.js).
 
 Here's the before shot:

@@ -13,7 +13,7 @@ Once it's selected, you can do a search and replace, yank, cut and other actions
 *  Press <code>CTRL-V</code> to begin select of the column
 *  When you reach the end of your select, type '<code>c</code>'
 *  Type the new text.  Note that this will only replace the first instance.
-* Now hit <code>&lt;ESC&gt;&lt;ESC&gt;.  All the text has been changed!
+* Now hit <code><ESC><ESC></code>.  All the text has been changed!
 
 The same thing works with plain old '<code>v</code>' (select character by character) and <code>SHIFT-V</code> (select by line).
 
