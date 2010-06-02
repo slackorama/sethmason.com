@@ -18,7 +18,7 @@ Bookmarklet][1].  I just call it 'library lookup v2.'  It was inspired by Jon
 Udell's [LibraryLookup](http://jonudell.net/LibraryLookupGenerator.html) which
 I used to use so I just updated the version.
 
-It's really easy to set up and use.  Set up is [covered on it's page][1] under
+It's really easy to set up and use.  Set up is [covered on its page][1] under
 &quot;Try xISBN Bookmarkets.&quot; One thing you'll need in advance is to know
 the base URL of your library's catalog.  Mine is
 [http://catalog.colapl.org](http://catalog.colapl.org) for example.
