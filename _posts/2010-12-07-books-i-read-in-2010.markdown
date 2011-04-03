@@ -11,7 +11,7 @@ books I read in 2010.  Here they are in reverse order:
 <ul>
 <li><a href="http://www.amazon.com/gp/search?keywords=9781934356340&index=books&linkCode=qs&tag=slackorama-20">The Passionate Programmer: Creating a Remarkable Career in Software Development</a> by Chad Fowler </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780374158460&index=books&linkCode=qs&tag=slackorama-20">Freedom</a> by Jonathan Franzen </li>
-Program or be Programmed: Ten Commands for a Digital Age
+<li>Program or be Programmed: Ten Commands for a Digital Age</li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780307379207&index=books&linkCode=qs&tag=slackorama-20">How to Live Safely in a Science Fictional Universe</a> by Charles Yu </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780759547636&index=books&linkCode=qs&tag=slackorama-20">How Would You Move Mount Fuji?</a> by William Poundstone </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780743204804&index=books&linkCode=qs&tag=slackorama-20">The First National Bank of Dad: The Best Way to Teach Kids About Money</a> by David Owen </li>
