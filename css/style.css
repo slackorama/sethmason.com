@@ -131,3 +131,4 @@ hr {border:none; background:#afc0cb; width:100%; position:relative; height:4px; 
 .dsq-comment-footer-left a:hover {color:#4f4e4e;}
 .dsq-brlink, .logo-disqus {display:none !important;}
 .amazon_widget_US_8004_0 {margin-top:18px !important;}
+.noline { border: 0 }
