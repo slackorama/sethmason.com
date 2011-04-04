@@ -2,7 +2,7 @@
 title: Sheena Is A C++ Hacker
 layout: post
 tags:
--
+- newsbeuter
 ---
 
 Not really.  And my name's not Sheena.  But I did make a contribution to the

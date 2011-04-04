@@ -20,14 +20,14 @@ Here's the before shot:
 
 <figure>
 <img src="/images/20100218_tidybz2-pre.png" width="540" height="330"
-border="0"/>
+class="noline" />
 </figure>
 
 Here's the after shot:
 
 <figure>
 <img src="/images/20100218_tidybz2-post.png" width="540" height="310"
-border="0"/>
+class="noline" />
 </figure>
 
 It hides the huge header, makes the title of the issue much more prominent and

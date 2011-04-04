@@ -2,7 +2,8 @@
 title: 97 Things Every Programmer Should Know
 layout: post
 tags:
--
+- books
+- programming
 ---
 
 I recently picked up O'Reilly's book

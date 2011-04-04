@@ -9,47 +9,47 @@ I was messing around with the [Goodreads API][api] and generated a list of
 books I read in 2010.  Here they are in reverse order:
 
 <ul>
-<li><a href="http://www.amazon.com/gp/search?keywords=9781934356340&index=books&linkCode=qs&tag=slackorama-20">The Passionate Programmer: Creating a Remarkable Career in Software Development</a> by Chad Fowler </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780374158460&index=books&linkCode=qs&tag=slackorama-20">Freedom</a> by Jonathan Franzen </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781934356340&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Passionate Programmer: Creating a Remarkable Career in Software Development</a> by Chad Fowler </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780374158460&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Freedom</a> by Jonathan Franzen </li>
 <li>Program or be Programmed: Ten Commands for a Digital Age</li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780307379207&index=books&linkCode=qs&tag=slackorama-20">How to Live Safely in a Science Fictional Universe</a> by Charles Yu </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780759547636&index=books&linkCode=qs&tag=slackorama-20">How Would You Move Mount Fuji?</a> by William Poundstone </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780743204804&index=books&linkCode=qs&tag=slackorama-20">The First National Bank of Dad: The Best Way to Teach Kids About Money</a> by David Owen </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780439023511&index=books&linkCode=qs&tag=slackorama-20">Mockingjay (The Hunger Games, #3)</a> by Suzanne Collins </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780439023498&index=books&linkCode=qs&tag=slackorama-20">Catching Fire (The Hunger Games, #2)</a> by Suzanne Collins </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780439023481&index=books&linkCode=qs&tag=slackorama-20">The Hunger Games (The Hunger Games, #1)</a> by Suzanne Collins </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780374299255&index=books&linkCode=qs&tag=slackorama-20">Lush Life</a> by Richard Price </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780446610384&index=books&linkCode=qs&tag=slackorama-20">Parable of the Talents</a> by Octavia E. Butler </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780230712584&index=books&linkCode=qs&tag=slackorama-20">Nights of Villjamur (Legends of the Red Sun, #1)</a> by Mark Charan Newton </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780765346124&index=books&linkCode=qs&tag=slackorama-20">The Eye of the Heron</a> by Ursula K. Le Guin </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780451526915&index=books&linkCode=qs&tag=slackorama-20">Arrowsmith</a> by Sinclair Lewis </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780452284845&index=books&linkCode=qs&tag=slackorama-20">The Young Wan</a> by Brendan O'Carroll </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780446675505&index=books&linkCode=qs&tag=slackorama-20">Parable of the Sower</a> by Octavia E. Butler </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780307269997&index=books&linkCode=qs&tag=slackorama-20">The Girl Who Kicked the Hornet's Nest</a> by Stieg Larsson </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780307269980&index=books&linkCode=qs&tag=slackorama-20">The Girl Who Played with Fire</a> by Stieg Larsson </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9781439127957&index=books&linkCode=qs&tag=slackorama-20">Circles</a> by James Burke </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780470156032&index=books&linkCode=qs&tag=slackorama-20">Honey, I Wrecked the Kids: When Yelling, Screaming, Threats, Bribes, Time-outs, Sticker Charts and Removing Privileges All Don't Work</a> by Alyson Schafer </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780671540661&index=books&linkCode=qs&tag=slackorama-20">The Shadow of the Torturer (The Book of the New Sun, #1)</a> by Gene Wolfe </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780446504126&index=books&linkCode=qs&tag=slackorama-20">NurtureShock: New Thinking About Children</a> by Po Bronson </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780439227148&index=books&linkCode=qs&tag=slackorama-20">The Call of the Wild</a> by Jack London </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9781439152928&index=books&linkCode=qs&tag=slackorama-20">Between the Assassinations</a> by Aravind Adiga </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780385528177&index=books&linkCode=qs&tag=slackorama-20">Getting Organized in the Google Era: How to Get Stuff out of Your Head, Find It When You Need It, and Get It Done Right</a> by Douglas C. Merrill </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780140149869&index=books&linkCode=qs&tag=slackorama-20">The South</a> by Colm Tóibín </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9781402179624&index=books&linkCode=qs&tag=slackorama-20">Two Years Before the Mast: A Sailor's Life at Sea</a> by Richard Henry Dana Jr. </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780071431187&index=books&linkCode=qs&tag=slackorama-20">Statistics Demystified</a> by Stan Gibilisco </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780393329407&index=books&linkCode=qs&tag=slackorama-20">Another Bullshit Night in Suck City</a> by Nick Flynn </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9781934356050&index=books&linkCode=qs&tag=slackorama-20">Pragmatic Thinking and Learning: Refactor Your Wetware</a> by Andy Hunt </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780345487452&index=books&linkCode=qs&tag=slackorama-20">Storming Las Vegas: How a Cuban-Born, Soviet-Trained Commando Took Down the Strip to the Tune of Five World-Class Hotels, Three Armored Cars, and Millions of Dollars</a> by John Huddy </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780374520083&index=books&linkCode=qs&tag=slackorama-20">Table of Contents</a> by John McPhee </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780307379207&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">How to Live Safely in a Science Fictional Universe</a> by Charles Yu </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780759547636&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">How Would You Move Mount Fuji?</a> by William Poundstone </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780743204804&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The First National Bank of Dad: The Best Way to Teach Kids About Money</a> by David Owen </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780439023511&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Mockingjay (The Hunger Games, #3)</a> by Suzanne Collins </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780439023498&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Catching Fire (The Hunger Games, #2)</a> by Suzanne Collins </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780439023481&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Hunger Games (The Hunger Games, #1)</a> by Suzanne Collins </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780374299255&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Lush Life</a> by Richard Price </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780446610384&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Parable of the Talents</a> by Octavia E. Butler </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780230712584&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Nights of Villjamur (Legends of the Red Sun, #1)</a> by Mark Charan Newton </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780765346124&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Eye of the Heron</a> by Ursula K. Le Guin </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780451526915&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Arrowsmith</a> by Sinclair Lewis </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780452284845&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Young Wan</a> by Brendan O'Carroll </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780446675505&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Parable of the Sower</a> by Octavia E. Butler </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780307269997&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Girl Who Kicked the Hornet's Nest</a> by Stieg Larsson </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780307269980&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Girl Who Played with Fire</a> by Stieg Larsson </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781439127957&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Circles</a> by James Burke </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780470156032&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Honey, I Wrecked the Kids: When Yelling, Screaming, Threats, Bribes, Time-outs, Sticker Charts and Removing Privileges All Don't Work</a> by Alyson Schafer </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780671540661&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Shadow of the Torturer (The Book of the New Sun, #1)</a> by Gene Wolfe </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780446504126&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">NurtureShock: New Thinking About Children</a> by Po Bronson </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780439227148&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Call of the Wild</a> by Jack London </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781439152928&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Between the Assassinations</a> by Aravind Adiga </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780385528177&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Getting Organized in the Google Era: How to Get Stuff out of Your Head, Find It When You Need It, and Get It Done Right</a> by Douglas C. Merrill </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780140149869&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The South</a> by Colm Tóibín </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781402179624&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Two Years Before the Mast: A Sailor's Life at Sea</a> by Richard Henry Dana Jr. </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780071431187&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Statistics Demystified</a> by Stan Gibilisco </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780393329407&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Another Bullshit Night in Suck City</a> by Nick Flynn </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781934356050&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Pragmatic Thinking and Learning: Refactor Your Wetware</a> by Andy Hunt </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780345487452&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Storming Las Vegas: How a Cuban-Born, Soviet-Trained Commando Took Down the Strip to the Tune of Five World-Class Hotels, Three Armored Cars, and Millions of Dollars</a> by John Huddy </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780374520083&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Table of Contents</a> by John McPhee </li>
 </ul>
 
 Only 32 books in a year!  That's kind of low for me, even with my Kindle by my
 side.  Such is life I suppose.   I really enjoyed <a
-href="http://www.amazon.com/gp/search?keywords=9780307379207&index=books&linkCode=qs&tag=slackorama-20">How
+href="http://www.amazon.com/gp/search?keywords=9780307379207&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">How
 to Live Safely in a Science Fictional Universe</a> by Charles Yu, the
 Hunger Games series and
 <a
-href="http://www.amazon.com/gp/search?keywords=9781934356050&index=books&linkCode=qs&tag=slackorama-20">Pragmatic
+href="http://www.amazon.com/gp/search?keywords=9781934356050&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Pragmatic
 Thinking and Learning: Refactor Your Wetware</a> by Andy Hunt if anyone is
 looking for a &quot;Best of.&quot;
 
