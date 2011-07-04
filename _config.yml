@@ -2,5 +2,7 @@ pygments : true
 
 permalink : date
 
+exclude: fabfile.py, fabfile.pyc
+
 maruku:
         use_divs: true
