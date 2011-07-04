@@ -1,11 +1,12 @@
-from fabric.api import local,hosts
-import os
+from fabric.api import local, hosts
 import fabric.contrib.project as project
+import os
 
-PROD='slackorama'
-DEST_PATH='/home/slackorama/sethmason.com/'
+PROD = 'slackorama'
+DEST_PATH = '/home/slackorama/sethmason.com/'
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 DEPLOY_PATH = os.path.join(ROOT_PATH, '_site')
+
 
 def clean():
     """
@@ -13,11 +14,13 @@ def clean():
     """
     local('rm -rf ./_site')
 
+
 def generate():
     """
     Generate the site files.
     """
     local('jekyll --pygments')
+
 
 def regen():
     """
@@ -26,11 +29,13 @@ def regen():
     clean()
     generate()
 
+
 def serve():
     """
     Serve everything locally and start up server to watch for changes.
     """
     local('jekyll --server --auto --pygments')
+
 
 @hosts(PROD)
 def publish():
