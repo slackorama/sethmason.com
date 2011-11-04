@@ -46,7 +46,7 @@ Redirect 301 /blog/23/vim-tip-select-column/ http://sethmason.com/2007/09/27/vim
 Redirect 301 /blog/22/just-cuz/ http://sethmason.com/2007/09/20/just-cuz.html
 Redirect 301 /blog/21/command-line-fun/ http://sethmason.com/2007/07/15/command-line-fun.html
 Redirect 301 /blog/20/ten-keyboard-shortcuts-for-intellij-idea http://sethmason.com/2007/06/29/ten-keyboard-shortcuts-for-intellij-idea.html
-Redirect/ 301 /blog/19/linux-cut-and-paste http://sethmason.com/2007/06/20/linux-cut-and-paste.html
+Redirect 301 /blog/19/linux-cut-and-paste http://sethmason.com/2007/06/20/linux-cut-and-paste.html
 Redirect 301 /blog/18/cygwin-and-ssh-tip/ http://sethmason.com/2007/06/13/cygwin-and-ssh-tip.html
 Redirect 301 /blog/17/bashrc-fun-with-subversion/ http://sethmason.com/2007/06/12/bashrc-fun-with-subversion.html
 Redirect 301 /blog/16/got-ugly-sql/ http://sethmason.com/2007/06/09/got-ugly-sql.html
