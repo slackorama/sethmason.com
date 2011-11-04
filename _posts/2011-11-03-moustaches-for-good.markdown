@@ -1,0 +1,12 @@
+---
+title: Moustaches For Good!
+---
+
+Sooo...hey! How ya' doing? Long time no see. Hope you've been well. Aside from
+being broken up over the breakdown of [Google Reader][reader], I've also been
+busy growing a moustache for Movember.
+
+You can donate to my cause at [http://mobro.co/sethmason].  Feel free to pass
+it around!
+
+  [reader]: http://decafbad.com/blog/2011/11/01/readerpocalypse
