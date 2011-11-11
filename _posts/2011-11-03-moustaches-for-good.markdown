@@ -1,5 +1,8 @@
 ---
 title: Moustaches For Good!
+layout: post
+tags:
+ - donate
 ---
 
 Sooo...hey! How ya' doing? Long time no see. Hope you've been well. Aside from
