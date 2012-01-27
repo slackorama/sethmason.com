@@ -9,7 +9,7 @@ Here's a simple script to show the currently playing song in Spotify. All you
 have to do is put it on your `$PATH` and run:
 
 {% highlight console %}
-> ~/bin/nowplaying
+> nowplaying
 The Unsinkable Fats Domino by Guided By Voices
 {% endhighlight %}
 
@@ -57,7 +57,10 @@ for key, value in trackMap.items():
 
     track[key] = piece.encode('utf-8')
 
-print('%s by %s' % (track['title'], track['artist']))
+if track.has_key('title') and track.has_key('artist'):
+    print('%s by %s' % (track['title'], track['artist']))
+else:
+    print('No song playing')
 
 {% endhighlight %}
 
