@@ -27,4 +27,4 @@ Well this post isn't an IntelliJ IDEA fanboy post so let's get back on track.  H
 
 </dl>
 
-For a complete list of keyboard shortcuts for IntelliJ IDEA, there's a "PDF (PDF of IntelliJ IDEA keyboard shortcuts)":http://www.scribd.com/doc/9638/IntelliJ-Reference-Card issued by JetBrains floating around.
+For a complete list of keyboard shortcuts for IntelliJ IDEA, there's a "PDF (PDF of IntelliJ IDEA keyboard shortcuts)":http://www.jetbrains.com/idea/docs/IntelliJIDEA8_ReferenceCard.pdf issued by JetBrains floating around.
