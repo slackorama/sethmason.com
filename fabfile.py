@@ -2,7 +2,7 @@ from fabric.api import local, hosts
 import fabric.contrib.project as project
 import os
 
-PROD = 'slackorama'
+PROD = 'slackorama@slackorama'
 DEST_PATH = '/home/slackorama/sethmason.com/'
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 DEPLOY_PATH = os.path.join(ROOT_PATH, '_site')
