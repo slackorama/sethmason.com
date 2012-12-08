@@ -22,8 +22,9 @@ a:hover, a:active, a:focus {color:#afc0cb;}
 .center {text-align:center;}
 @font-face {font-family:'Gill Sans'; src:url('fonts/GillSans.eot'); src:local('GillSansRegular'), local('GillSans'), url('fonts/GillSans.woff') format('woff'), url('fonts/GillSans.otf') format('opentype');}
 body {font-family:"Gill Sans", Trebuchet, Calibri, sans-serif; font-size:65.5%; line-height:18px; color:#4f4e4e;}
-section p, section pre, section address, section ul, section ol, section li, section dialog, section dl, section dt, section dd, blockquote
+section p, section address, section ul, section ol, section li, section dialog, section dl, section dt, section dd, blockquote
 {font-family:Times,"Times New Roman",Georgia,serif; font-size:14px; word-spacing:0.1em; hyphenate:auto; hyphenate-lines:3;}
+section pre { font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace; }
 h1, h2, h3, h4, h5, h6 {color:#3f5767; text-transform:uppercase; letter-spacing:1px; padding-top:26px; padding-bottom:8px;}
 h1 {font-size:30px; line-height:36px;}
 h2 {font-size:22px; line-height:28px;}
