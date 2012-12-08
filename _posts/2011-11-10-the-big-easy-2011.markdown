@@ -14,7 +14,7 @@ tags:
     my hat hangs for the time being. Speaking of hanging, Unity almost made me
     want to hang myself but I think I have it dialed into where I like
     it. Hidden inside the Compiz settings are some sweet keyboard shortcuts for
-    windows management, which is the only reason I tried out [[xmonad]] for as
+    windows management, which is the only reason I tried out [xmonad][xmonad] for as
     long as I did.
  *  [GNU Emacs][emacs]: Emacs is probably where I spend about 90% of my
     day. I've got it to the point where I hardly touch the configuration files
