@@ -66,6 +66,6 @@ else:
 
 If you want Spotify to use the built-in notifier in Ubuntu, then by all means
 check out [Spotify-notify](http://code.google.com/p/spotify-notify/). It also
-adds support for tmedia keys.
+adds support for media keys.
 
 
