@@ -1,0 +1,5 @@
+	<p>So, I created a little page that&#8217;ll dump out the last 30 items from my <a href="http://friendfeed.com/slackorama">Friendfeed</a> feed.</p>
+
+	<p><a href="http://www.jquery.com">jQuery</a> and <a href="http://friendfeed.com/api/">the Friendfeed API</a> make it incredibly easy.  It only took me about 15 minutes to get it working.  The rest of the time was making it ugly with my crazy design skills.</p>
+
+	<p>It&#8217;s over on my <a href="http://www.slackorama.com/projects/friendfeed/jquery-test.html">vanity site</a> if you are curious to check it out.</p>

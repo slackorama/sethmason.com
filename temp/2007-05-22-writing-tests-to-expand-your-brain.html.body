@@ -1,0 +1,34 @@
+	<p>Learning a new programming language historically starts off with the classic &#8220;Hello World&#8221; example.  I&#8217;ve probably written a  variation on that a bazillion times.  From there you take more steps into advanced parts of the language.  If you are smart, you save your example programs to refer back to them later. But there&#8217;s a better way. And that better way is to write test cases that exercise the capabilities of the language you are trying to learn.  This also works for new libraries within a language you are trying to learn.</p>
+
+	<p>The advantages of writing test cases are plentiful. It gets you writing actual code which helps you remember, they can be usually be run easily, they serve as an extra source of documentation about what you are trying to do  (e.g. &#8220;How do I use <code>gsub</code> again? Oh yeah, it&#8217;s in that string  test I wrote?&#8221;) and finally writing tests is fun.</p>
+
+	<p><strong>An Example</strong><br />After ignoring it for way too long, I recently started trying out the <a href="http://developer.yahoo.com/yui" title="Yahoo! User Interface Library">Yahoo! User Interface Library</a>.  It&#8217;s a JavaScript library with scads of useful utilities for buidling web applications.  So, I pulled up the documentation and started writing a tests based on what&#8217;s documented.  Since it&#8217;s JavaScript, I used <a href="http://jsunit.net" title="JsUnit is a Unit Testing framework">JsUnit</a> since I&#8217;m used to <a href="http://www.junit.com" title="JUnit -- Java Unit Test framework">JUnit</a> on the Java side of things.  And <em>voila</em> we have our first test:</p>
+
+<pre><code>    &#60;html&#62;
+        &#60;head&#62;
+        &#60;title&#62;Test Yahoo&#60;/title&#62;
+        &#60;script type=&#34;text/javascript&#34; 
+            src=&#34;jsUnitCore.js&#34;&#62;&#60;/script&#62;
+        &#60;script type=&#34;text/javascript&#34; 
+            src=&#34;yahoo.js&#34;&#62;&#60;/script&#62;
+        &#60;script type=&#34;text/javascript&#34;&#62;
+        &#60;!--
+            function testIsArray() {
+                assertTrue(YAHOO.lang.isArray([1,2]));
+            }
+        //--&#62;
+        &#60;/script&#62;
+    &#60;/head&#62;
+    &#60;body&#62;
+        A test document.
+    &#60;/body&#62;
+    &#60;/html&#62;
+</code></pre>
+
+	<p>(I know it&#8217;s very simple but I just wanted to get a feel for the first method in the global library and type it so my brain remembered it.)</p>
+
+	<p>So, now I drop the test file into my test runner and here we have the results:</p>
+
+	<p><img src="http://sethmason.com/images/4.png" alt="" /></p>
+
+	<p>Can&#8217;t you just feel your brain expanding with the possibilities?</p>

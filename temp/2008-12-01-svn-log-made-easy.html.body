@@ -1,0 +1,10 @@
+	<p><a href="http://svnbook.red-bean.com/en/1.5/svn.ref.svn.c.log.html">svn log</a> is a great command to see what&#8217;s going on in your subversion repository.  Unfortunately, at my job we are using a really old version (1.1.4!),  a version so old that it doesn&#8217;t support the <code>--limit</code> argument.  This makes the <code>svn log</code> painful to use as it outputs <span class="caps">EVERYTHING</span>.  </p>
+
+	<p>Luckily, <code>svn log</code> is so awesome that it overcomes this weakness and allows you to use a date based criteria for listing log statements.  Unfortunately, the syntax is hard for me to remember.  Thus, I wrote this little shell script function that&#8217;ll list activity for the given days in the past.  You can put it in your <code>.bashrc</code> and run it like <code>svnlog 14</code>.  That&#8217;ll output logs from the last 14 days.</p>
+
+<pre><code>    svnlog() {
+        OFFSET=$1
+        shift
+        svn log -r HEAD:{&#34;`date -d &#34;$OFFSET days ago&#34; +%Y-%m-%d`&#34;} $*
+    }
+</code></pre>

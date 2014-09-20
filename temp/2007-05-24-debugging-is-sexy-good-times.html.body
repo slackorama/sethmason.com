@@ -1,0 +1,16 @@
+	<p>I love me some [<a href="http://json.org" title="JavaScript Object Notation">JSON</a>].  The problem with it is that it&#8217;s not too human readable when you need to see what it&#8217;s returning.  Sure you could litter your code with alerts or console.debug (if you are using [<a href="http://www.getfirebug.com" title="Awesome JavaScript debugger">Firebug</a>] and [<a href="http://www.getfirefox.com" title="Awesome web browser">Firefox</a>] to figure out what values are you getting back.   </p>
+
+	<p>But if you&#8217;ve got the Firefox/Firebug setup (and why don&#8217;t you if you don&#8217;t?) then you can just use  the Firebug console to display the <span class="caps">JSON</span> data. Say for instance you have the following data returned from your service (but imagine it&#8217;s a bazillion lines long):</p>
+
+<pre><code>    {&#34;SomeObject&#34;:{&#34;Attrib1&#34;:&#34;foo&#34;,
+                   &#34;Attrib2&#34;:&#34;bar&#34;,
+                   &#34;SubObject&#34;: {&#34;SubAttrib1&#34;:&#34;bar&#34;}
+                  }
+    }
+</code></pre>
+
+	<p>Just wrap that in an <code>eval</code> function, plug it into the console and you get back a nice little tree of your data in the <span class="caps">DOM</span> view.</p>
+
+	<p><img src="http://sethmason.com/images/5.png" alt="" /></p>
+
+	<p>Now isn&#8217;t that sexy?</p>

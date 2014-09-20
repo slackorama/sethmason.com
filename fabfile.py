@@ -1,52 +1,60 @@
-from fabric.api import local, hosts
+from fabric.api import *
 import fabric.contrib.project as project
 import os
 
-PROD = 'slackorama@slackorama'
-DEST_PATH = '/home/slackorama/sethmason.com/'
-ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
-DEPLOY_PATH = os.path.join(ROOT_PATH, '_site')
+# Local path configuration (can be absolute or relative to fabfile)
+env.deploy_path = 'output'
+DEPLOY_PATH = env.deploy_path
+
+# Remote server configuration
+production = 'bit'
+dest_path = '/var/www/sethmason.com'
+
+# Rackspace Cloud Files configuration settings
+env.cloudfiles_username = 'my_rackspace_username'
+env.cloudfiles_api_key = 'my_rackspace_api_key'
+env.cloudfiles_container = 'my_cloudfiles_container'
 
 
 def clean():
-    """
-    Clean up the generated files.
-    """
-    local('rm -rf ./_site')
+    if os.path.isdir(DEPLOY_PATH):
+        local('rm -rf {deploy_path}'.format(**env))
+        local('mkdir {deploy_path}'.format(**env))
 
+def build():
+    local('pelican -s pelicanconf.py')
 
-def generate():
-    """
-    Generate the site files.
-    """
-    local('jekyll --pygments')
-
-
-def regen():
-    """
-    Clean up the files and then generate them.
-    """
+def rebuild():
     clean()
-    generate()
+    build()
 
+def regenerate():
+    local('pelican -r -s pelicanconf.py')
 
 def serve():
-    """
-    Serve everything locally and start up server to watch for changes.
-    """
-    local('jekyll --server --auto --pygments')
+    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
+def reserve():
+    build()
+    serve()
 
-@hosts(PROD)
+def preview():
+    local('pelican -s publishconf.py')
+
+def cf_upload():
+    rebuild()
+    local('cd {deploy_path} && '
+          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
+          '-U {cloudfiles_username} '
+          '-K {cloudfiles_api_key} '
+          'upload -c {cloudfiles_container} .'.format(**env))
+
+@hosts(production)
 def publish():
-    """
-    Regenerate everything and push to the public website.
-
-    Helpful to run this with the '-u' option since fabric ignores .ssh/config.
-    """
-    regen()
+    local('pelican -s publishconf.py')
     project.rsync_project(
-        remote_dir=DEST_PATH,
+        remote_dir=dest_path,
+        exclude=".DS_Store",
         local_dir=DEPLOY_PATH.rstrip('/') + '/',
         delete=True
-        )
+    )

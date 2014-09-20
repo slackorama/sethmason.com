@@ -1,5 +1,0 @@
-* html body {behavior:url("css/csshover3.htc"); behavior: url("css/iepngfix.htc"); width: expression( document.body.clientWidth < 801 ? "800px" : "auto" );}
-.menu li ul li {margin-bottom:-2px;}
-.byline h6 {padding:6px 0;}
-.byline h6 span {padding:0 0 0 14px;}
-* html .clearfix, *:first-child+html .clearfix {zoom:1;}

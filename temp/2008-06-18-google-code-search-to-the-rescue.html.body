@@ -1,0 +1,7 @@
+	<p>Mmkay, this tip is probably a gazillion years late but <a href="http://www.google.com/codesearch">Google Code Search</a> is a great resource for a budding developer.  Heck, I&#8217;m a relatively seasoned developer and I use it.  </p>
+
+	<p>It allows you to search public source code using a variety of methods.  You can search for an exact string or a regex.  You can search certain files, certain packages and certain languages.  </p>
+
+	<p>For instance, today I was curious how to use the Perl <span class="caps">API</span> for writing a  <a href="http://www.pidgin.im">Pidgin</a> plugin as their documentation is a tad sparce.  A quick search looking for <a href="http://www.google.com/codesearch?q=Purple%3A%3AFind%3A%3ABuddy&#38;hl=en&#38;btnG=Search+Code">Purple::Find::buddy</a> and I found a whole bunch of examples.  You can also use it for silly things, like looking for <a href="http://www.google.com/codesearch?hl=en&#38;lr=&#38;q=%22meaning+of+life%22&#38;sbtn=Search">quotes</a> from &quot;Hitchiker&#8217;s Guide To The Galaxy.&quot;</p>
+
+	<p>It&#8217;s official, Google now owns me.  <em>sigh</em></p>

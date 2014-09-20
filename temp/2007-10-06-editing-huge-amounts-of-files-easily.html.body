@@ -1,0 +1,59 @@
+	<p>Where I <a href="http://www.ign.com">work</a>, we have tons of static html files that are published using our custom built Content Management System.  Sometimes, we have to change a single line on every single page.  For example, the latest case involved a change involving the size of ads that were on the pages.  Rather than use publishing and database resources just to make this relatively simple change, I use the power of the shell.  Specifically, I use <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?find" style="text-align:left;">code>find</code></a>, <a href="http://www.grymoire.com/Unix/Sed.html" style="text-align:left;">code>sed</code></a> and a shell script that I wrote.  It&#8217;s based on a shell script in the <a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&#38;location=http%3A%2F%2Fwww.amazon.com%2FPower-Tools-Third-Shelley-Powers%2Fdp%2F0596003307%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1191730398%26sr%3D8-1&#38;tag=slackorama-20&#38;linkCode=ur2&#38;camp=1789&#38;creative=9325">Unix Power Tools</a> book.</p>
+
+	<p>First off, we need to find all the files.  I usually accomplish this with something simple like</p>
+
+<pre><code>    $ find /www -type f -name &#34;*.html&#34; -print
+</code></pre>
+
+	<p>This simply finds that end with .html in the /www directory.  You can do more complex things with <code>find</code> like find all files modified in the last 2 days by Frank if you needed to change files like that.</p>
+
+	<p>The results of this will be passed off to a file named <code>replace.sh</code> located in my <code>~/bin</code> directory.  <code>Replace.sh</code> is reproduced here:</p>
+
+<pre><code>    #!/bin/sh
+    temp=/tmp/replace$$
+    echo -n &#34;editing $1: &#34;
+    if test &#34;$1&#34; = sedscr; then
+        echo -n &#34;Not editing sedscript!&#34;
+    elif test -s $1; then
+             sed -f sedscr $1 &#62; $temp
+        if test -s &#34;$temp&#34;; then
+            if cmp -s &#34;$1&#34; $temp; then
+                echo -n &#34;FILE NOT CHANGED: &#34;
+            else
+                # save original, just in case
+                # mv $1 $1.bak
+                cp $temp &#34;$1&#34;
+            fi
+            echo -n &#34;done&#34;
+        else
+            echo -n &#34;Sed produced an empty file \
+    - check your sedscript&#34;.
+        fi
+    else
+        echo -n &#34;ORIGINAL FILE IS EMPTY&#34;
+    fi
+    rm -f $temp
+    echo
+</code></pre>
+
+	<p>So, the command we would run would now look like this:</p>
+
+<pre><code>    $ find /www -type f \
+          -name &#34;*.html&#34; \
+          -exec ~/bin/replace.sh {} \;
+</code></pre>
+
+	<p>This does the same as above but passes each file found by the <code>find</code> command above  to the <code>~/bin/replace.sh</code> script.</p>
+
+	<p>You&#8217;ll notice that the <code>replace.sh</code> file calls <code>sed</code> using a file named <code>sedscr.</code>  The next step is creating the <code>sedscr</code> file.</p>
+
+	<p>The <code>sedscr</code> files simple contains <code>sed</code> commands.  It must exist in the same directory that you call the <code>find</code> command above from.  Here&#8217;s a sample <code>sedscr</code> that just does a simple replace.</p>
+
+<pre><code>    s/BigHonkingAd/NiceSmallAd/
+</code></pre>
+
+	<p>You can enter in as many complex <a href="http://main.rtfiber.com.tw/~changyj/sed/" style="text-align:left;">code>sed</code> commands</a> as you want.  It&#8217;s <code>sed</code> so the power is there!</p>
+
+	<p>This simply replaces all instances of BigHonkingAd with NiceSmallAd in each of your  files found by the <code>find</code> command.  The nice thing about the <code>replace.sh</code> script is that it will not edit the file if the contents of your <code>sedscr</code> don&#8217;t produce an altered file.  Also, if you want the <code>replace.sh</code> to make a backup of your original file, just uncomment the <code>mv</code> line.</p>
+
+	<p>Using this methodology, I&#8217;m able to edit about 5000 files a minute.  It could probably be faster if I used <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?xargs">xargs</a> and the output of <code>replace.sh</code> is a little verbose but this solution has worked for me for years and if it ain&#8217;t broke, why fix it?</p>

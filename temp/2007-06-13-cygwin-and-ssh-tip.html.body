@@ -1,0 +1,7 @@
+	<p><img src="http://sethmason.com/images/8.png" height="111" width="480" /></p>
+
+	<p>Auto completion for <code>ssh</code> under cygwin was driving me nuts.  It wasn&#8217;t parsing the <code>~/.ssh/known_hosts</code> file like it should have and using those values to auto-complete.  Investigating, (by using <code>ssh -v</code>) I found out that my <code>known_hosts</code> didn&#8217;t exist in <code>${HOME}/.ssh</code> and <code>ssh</code> was using the one in <code>C:/Documents and Settings/smason/.ssh</code>.  Uh, <em>excuse me</em>?  My <code>$HOME</code> is <code>/home/smason</code>.  I <code>cd ~</code> and I&#8217;m in <code>/home/smason</code>.  Bafflement ensued.</p>
+
+	<p>Turns out my <code>/etc/passwd</code> was all mucked up.  It had my <code>HOME</code> directory set to the one in my <code>Documents and Settings</code> directory.  I manually edited my <code>/etc/passwd</code> and now <code>ssh</code> auto completion works.</p>
+
+	<p>Wow, the <a href="http://sethmason.com/blog/17/bashrc-fun-with-subversion" title=".bashrc Fun With Subversion">second post</a>  in a row dealing with auto completion.  I guess I <strong>really</strong> like auto-completion.  Think of the keystrokes I&#8217;m saving you!</p>

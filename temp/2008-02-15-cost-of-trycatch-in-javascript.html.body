@@ -1,0 +1,40 @@
+	<p>I know that in Java, using a try/catch is fairly expensive vs. a if check.  Since JavaScript has the same syntax for the most part, I wrote up a simple benchmarking script to test it out.   On my box, it outputs:</p>
+
+<pre>if avg: 0.029
+try avg: 1.372
+</pre>
+
+	<p>Note, that you&#8217;ll need <a href="http://ww.getfirebug.com">the Firebug plugin</a> for <a href="http://www.getfirefox.com">Firefox</a> in order to run this.</p>
+
+<pre><code>    var tryFunc = function () {
+      try {
+        document.getElementById(&#34;fake&#34;).innerHTML = &#34;hi there&#34;;
+      } catch (e) {
+        // eat it!
+      }
+    }
+</code></pre>
+
+    var ifFunc = function() {
+      var el = document.getElementById(&#8220;fake&#8221;);
+      if (el) {
+        el.innerHTML = &#8220;hi there&#8221;;
+      }
+    };
+
+    function benchmark(name, func) {
+      var repeats = 1000;
+      var elapsed = 0;
+      var startTime =0;
+      var endTime = 0;
+      for (var i=0; i< repeats; i++) {
+        startTime = new Date().getTime();
+        func.call();
+        endTime = new Date().getTime();
+        elapsed += (endTime &#8211; startTime);
+      }
+      console.log(name + &#8220; avg: &#8220; + (elapsed / repeats ) );
+    }
+
+    benchmark( &#8220;if&#8221;, ifFunc );
+    benchmark( &#8220;try&#8221;, tryFunc );

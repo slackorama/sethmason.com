@@ -1,0 +1,13 @@
+	<p>If you use the command line in bash, you should check out the <span class="caps">CDPATH</span> environment variable.  It&#8217;ll make your life tons easier.</p>
+
+	<p>From the <a href="http://www.linuxcommand.org/man_pages/bash1.html">bash man pages</a>, <span class="caps">CDPATH</span> is defined as:</p>
+
+<blockquote>The search path for the cd command.  This is a colon-separated list  of directories in which the shell looks for destination directories specified by the cd command.  A sample value is &#8220;.:~:/usr&#8221;.</blockquote>
+
+	<p>In my .bashrc, I&#8217;ve got the following defined:<br /><code>
+CDPATH='.:..:../..:~/projects'
+</code></p>
+
+	<p>This allows me to just type <code>cd app</code> when I want to go to <code>~/projects/app</code>.  Another great part of it is that if I am in <code>/var/log</code> and want to go to <code>/var/www</code> I only need to type <code>cd www</code>.  The <code>..</code> in the <span class="caps">CDPATH</span> takes care of finding it. </p>
+
+	<p>The important part of it is the first one.  The single period allows for <code>cd</code> to work normally and find directories in your current directory.</p>

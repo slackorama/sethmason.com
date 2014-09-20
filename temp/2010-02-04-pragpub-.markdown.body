@@ -1,0 +1,15 @@
+
+This is probably way late but [The Pragmatic Bookshelf][prag], publishers of
+fine programming books, have launched a [free monthly magazine][pub] called
+*PragPub* that covers a variety of topics.  For instance, this month has a
+nice overview of how to use [Sass][sass].  Past topics have included articles
+about Clojure, automating screencasts and managing life projects.
+
+Granted, they are ultimately pushing their books (which I think are excellent)
+but they are releasing the magazine in PDF, epub and mobi.  How cool is that?
+
+[PragPub][pub]
+
+[prag]: http://www.pragprog.com "The Pragmatic Bookshelf"
+[pub]:  http://www.pragprog.com/magazines "PragPub"
+[sass]: http://sass-lang.com/ "Sytactically awesome stylesheets"
