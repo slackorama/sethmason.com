@@ -1,5 +1,6 @@
 Title: A Better Bugzilla2 
 Tags: bugzilla, greasemonkey
+Category: tools
 
 
 For a variety of reasons, I'm still using version 2 of

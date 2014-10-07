@@ -1,5 +1,6 @@
 Title: PragPub 
 Tags: programming
+Category: reading
 
 
 This is probably way late but [The Pragmatic Bookshelf][prag], publishers of

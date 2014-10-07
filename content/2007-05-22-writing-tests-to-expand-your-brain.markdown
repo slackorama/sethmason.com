@@ -1,12 +1,12 @@
 Title: Writing Tests For Fun And Profit
-Tags: Tests, JavaScript
+Tags: tests, javascript
 Slug: writing-tests-to-expand-your-brain
 
 Learning a new programming language historically starts off with the
-classic “Hello World” example. I’ve probably written a variation on that
+classic “Hello World” example. I've probably written a variation on that
 a bazillion times. From there you take more steps into advanced parts of
 the language. If you are smart, you save your example programs to refer
-back to them later. But there’s a better way. And that better way is to
+back to them later. But there's a better way. And that better way is to
 write test cases that exercise the capabilities of the language you are
 trying to learn. This also works for new libraries within a language you
 are trying to learn.
@@ -14,18 +14,18 @@ are trying to learn.
 The advantages of writing test cases are plentiful. It gets you writing
 actual code which helps you remember, they can be usually be run easily,
 they serve as an extra source of documentation about what you are trying
-to do (e.g. “How do I use `gsub` again? Oh yeah, it’s in that string
+to do (e.g. “How do I use `gsub` again? Oh yeah, it's in that string
 test I wrote?”) and finally writing tests is fun.
 
 **An Example**
 After ignoring it for way too long, I recently started trying out the
 [Yahoo! User Interface
 Library](http://developer.yahoo.com/yui "Yahoo! User Interface Library").
-It’s a JavaScript library with scads of useful utilities for buidling
+It's a JavaScript library with scads of useful utilities for buidling
 web applications. So, I pulled up the documentation and started writing
-a tests based on what’s documented. Since it’s JavaScript, I used
+a tests based on what's documented. Since it's JavaScript, I used
 [JsUnit](http://jsunit.net "JsUnit is a Unit Testing framework") since
-I’m used to
+I'm used to
 [JUnit](http://www.junit.com "JUnit -- Java Unit Test framework") on the
 Java side of things. And *voila* we have our first test:
 
@@ -50,12 +50,12 @@ Java side of things. And *voila* we have our first test:
     </body>
     </html>
 
-(I know it’s very simple but I just wanted to get a feel for the first
+(I know it's very simple but I just wanted to get a feel for the first
 method in the global library and type it so my brain remembered it.)
 
 So, now I drop the test file into my test runner and here we have the
 results:
 
-![](http://sethmason.com/images/4.png)
+![It's all green!]({filename}/images/4.png)
 
-Can’t you just feel your brain expanding with the possibilities?
+Can't you just feel your brain expanding with the possibilities?

@@ -1,5 +1,6 @@
 Title: 97 Things Every Programmer Should Know
 Tags: books, programming
+Category: reading
 
 
 I recently picked up O'Reilly's book

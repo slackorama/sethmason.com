@@ -1,5 +1,6 @@
 Title: Beautify your JavaScript in Emacs
 Tags: javascript, emacs, beautify
+Category: editor
 
 I know you'll find this hard to believe dear reader but I'm a big fan of
 using Emacs to write  JavaScript. One thing that irked me in the past is

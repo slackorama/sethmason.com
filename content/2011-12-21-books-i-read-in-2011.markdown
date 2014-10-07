@@ -1,5 +1,6 @@
 Title: Books I Read in 2011
 Tags: books
+Category: reading
 
 So, it's been over a year since [my last "Books I Read"][1] post so it's time
 I suppose. Only 28 books this year but this includes the behemoths that make up the first
@@ -49,4 +50,4 @@ If you want up to the minute updates, I suggest you follow me on <a href="http:/
 Full disclosure: Most of the book links on this page are Amazon affiliate
 links so I get some coin when you buy something.
 
-[1]: http://sethmason.com/2010/12/07/books-i-read-in-2010.html
+[1]: {filename}/2010-12-07-books-i-read-in-2010.markdown

@@ -1,5 +1,6 @@
 Title: Visit your local library via Amazon.com
 Tags: amazon, worldcat, bookmarklet
+Category: tools
 
 <figure class="left">
 <img src="/images/20100130.gif" width="79" height="79"/>

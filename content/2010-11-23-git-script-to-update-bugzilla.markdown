@@ -1,5 +1,6 @@
 Title: Git script to update Bugzilla
 Tags: git, bugzilla
+Category: Programming
 
 
 At my work we use [git](http://git-scm.com "Git") and

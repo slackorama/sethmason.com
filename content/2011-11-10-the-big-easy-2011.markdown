@@ -1,5 +1,6 @@
 Title: The Big Easy 2011
 Tags: software
+Category: personal
 
  **TL;DR:** *I use quite a bit of software.*
 

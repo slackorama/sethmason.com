@@ -1,5 +1,6 @@
 Title: Toggler in Ext JS
 Tags: javascript, extjs
+Category: programming
 
 Since it has been awhile since I last posted and we started using
 [Ext JS](http://www.sencha.com/products/extjs/) at

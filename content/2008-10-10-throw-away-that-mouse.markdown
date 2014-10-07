@@ -1,15 +1,16 @@
 Title: Throw away that mouse
-Tags: firefox
+Tags: firefox, tip
+Category: tools
 
 ![Mouseless browsing
-screenshot](http://sethmason.com/images/12.png "Mouseless browsing screenshot")
+screenshot]({filename}/images/12.png)
 
-I’m not a big fan of using the mouse. It pains me to reach for it to
-accomplish something. That’s why I was really excited to find the
+I'm not a big fan of using the mouse. It pains me to reach for it to
+accomplish something. That's why I was really excited to find the
 [Mouseless Browsing](https://addons.mozilla.org/en-US/firefox/addon/879)
 add-on for [Firefox](http://www.getfirefox.com).
 
-From the add-on’s
+From the add-on's
 [homepage](http://www.mouseless.de/index.php?/content/view/14/26/):
 
 > Mouseless Browsing (MLB) is a Firefox-Extension which enables you to

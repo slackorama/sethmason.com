@@ -2,7 +2,7 @@ Title: "Intellij IDEA and Linux: Not Like Peanut Butter and Chocolate"
 Tags: intellij, linux, idea
 
 I love me some Intellij and I love me some Linux. Unfortunately, they
-don’t play too well together. Lots of keyboard shortcuts do operating
+don't play too well together. Lots of keyboard shortcuts do operating
 system commands.
 
 For instance, `CTRL+ALT+L` reformats your code in Intellij but it never

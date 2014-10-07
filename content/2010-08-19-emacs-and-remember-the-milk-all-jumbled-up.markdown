@@ -1,5 +1,6 @@
 Title: Emacs and Remember The Milk all jumbled up
 Tags: emacs, rtm, emacs-lisp
+Category: editor
 
 
 I'm a huge fan of [Remember The Milk][1] and [GNU Emacs][2].  So much so, that

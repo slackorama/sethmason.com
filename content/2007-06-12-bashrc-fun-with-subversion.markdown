@@ -28,10 +28,10 @@ Add the following to your .bashrc
 
 Save your .bashrc, source it (using `source .bashrc`) and now Subversion
 commands will complete. For example, enter `svn upd` press the Tab key
-and you’ll get `svn update`.
+and you'll get `svn update`.
 
-Think of all the keystrokes you’ll be saving.
+Think of all the keystrokes you'll be saving.
 
-**Update:** I just found Subversion’s own [bash completion
+**Update:** I just found Subversion's own [bash completion
 script](http://svn.collab.net/repos/svn/trunk/tools/client-side/bash_completion)
 which has a ton more options. Mine is easier to maintain. :)

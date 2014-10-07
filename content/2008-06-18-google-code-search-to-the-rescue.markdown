@@ -3,7 +3,7 @@ Tags: google, coding
 
 Mmkay, this tip is probably a gazillion years late but [Google Code
 Search](http://www.google.com/codesearch) is a great resource for a
-budding developer. Heck, I’m a relatively seasoned developer and I use
+budding developer. Heck, I'm a relatively seasoned developer and I use
 it.
 
 It allows you to search public source code using a variety of methods.
@@ -17,6 +17,6 @@ sparce. A quick search looking for
 and I found a whole bunch of examples. You can also use it for silly
 things, like looking for
 [quotes](http://www.google.com/codesearch?hl=en&lr=&q=%22meaning+of+life%22&sbtn=Search)
-from "Hitchiker’s Guide To The Galaxy."
+from "Hitchiker's Guide To The Galaxy."
 
-It’s official, Google now owns me. *sigh*
+It's official, Google now owns me. *sigh*

@@ -8,7 +8,7 @@ up a simple benchmarking script to test it out. On my box, it outputs:
     if avg: 0.029
     try avg: 1.372
 
-Note, that you’ll need [the Firebug plugin](http://ww.getfirebug.com)
+Note, that you'll need [the Firebug plugin](http://ww.getfirebug.com)
 for [Firefox](http://www.getfirefox.com) in order to run this.
 
     :::javascript

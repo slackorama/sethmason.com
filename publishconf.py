@@ -13,12 +13,15 @@ from pelicanconf import *
 SITEURL = 'http://sethmason.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM="sethmason"
+FEED_DOMAIN="http://feeds.feedburner.com"
+
+FEED_ALL_ATOM = 'atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+GOOGLE_ANALYTICS='UA-2071015-1'
+GOOGLE_ANALYTICS_SITENAME='sethmason.com'
+DISQUS_SITENAME='seths-blog'
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""

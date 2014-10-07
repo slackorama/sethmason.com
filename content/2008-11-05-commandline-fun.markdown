@@ -1,5 +1,7 @@
 Title: Commandline Fun
-Tags: curl, twitter
+Tags: curl, twitter, tip
+Category: shell
+
 
 Insprired by [an article on
 ibm.com](http://www.ibm.com/developerworks/linux/library/l-friendfeed/?S_TACT=105AGX01&S_CMP=HP)

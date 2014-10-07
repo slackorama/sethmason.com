@@ -1,6 +1,6 @@
 Title: Books I Read in 2010
 Tags: books
-
+Category: reading
 
 I was messing around with the [Goodreads API][api] and generated a list of
 books I read in 2010.  Here they are in reverse order:

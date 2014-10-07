@@ -1,5 +1,6 @@
 Title: Sheena Is A C++ Hacker
 Tags: newsbeuter
+Category: personal
 
 
 Not really.  And my name's not Sheena.  But I did make a contribution to the

@@ -1,5 +1,7 @@
 Title: JSLint and git blame for fun and profit
-Tags: git, jslint
+Tags: git, jslint, tip
+Category: programming
+
 
 For some unknown reason, we have a problem with superfluous trailing commas at
 work in our JavaScript. It's probably because we have a bunch of Perl

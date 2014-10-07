@@ -1,0 +1,60 @@
+Title: Books I Read in 2013
+Tags: books
+Category: reading
+
+It's that time of the year again where I finally stop blowing off blogging and
+write something. I should really whip up a script to do this since it's using
+the [Goodreads API](http://www.goodreads.com). Then I'd never touch my
+blogging software again!
+
+So, withtout futher ado, in reverse chronological order, the 29 books I read in 2013:
+
+<ul>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780297859383&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Gone Girl</a> by Gillian Flynn </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780385721677&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Oryx and Crake (MaddAddam Trilogy, #1)</a> by Margaret Atwood </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780671726522&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Kon-Tiki</a> by Thor Heyerdahl </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781594204234&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Bleeding Edge</a> by Thomas Pynchon </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781583226988&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Bloodchild and Other Stories</a> by Octavia E. Butler </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780007149827&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Yiddish Policemen's Union</a> by Michael Chabon </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781400043927&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Keep</a> by Jennifer Egan </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781934356005&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Programming Erlang</a> by Joe Armstrong </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781439148501&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Under the Dome</a> by Stephen King </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780385522267&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Where Men Win Glory: The Odyssey of Pat Tillman</a> by Jon Krakauer </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781400033416&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Beloved</a> by Toni Morrison </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780547054841&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Indignation</a> by Philip Roth </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780307596901&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Woman Upstairs</a> by Claire Messud </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780061692048&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Canada</a> by Richard Ford </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780307277718&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Everyman</a> by Philip Roth </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780434018420&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Gone-Away World</a> by Nick Harkaway </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780192833594&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Great Expectations</a> by Charles Dickens </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781400076734&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Augustus</a> by John Edward Williams </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780553807677&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">All Clear</a> by Connie Willis </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780615682310&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">John Carter and the Gods of Hollywood</a> by Michael D. Sellers </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780553562736&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Doomsday Book (Oxford Time Travel, #1)</a> by Connie Willis </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780061493348&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Telegraph Avenue</a> by Michael Chabon </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780553803198&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Blackout</a> by Connie Willis </li>
+<li><a href="http://www.amazon.com/Redshirts-A-Novel-Three-Codas/dp/0765334798">Red Shirts</a> by John Scalzi</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781439167854&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">You're Not Doing It Right: Tales of Marriage, Sex, Death, and Other Humiliations</a> by Michael Ian Black </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780224097376&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Sweet Tooth</a> by Ian McEwan </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780553575385&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">To Say Nothing of the Dog (Oxford Time Travel, #2)</a> by Connie Willis </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781576469231&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Scarlet Pimpernel</a> by Emmuska Orczy </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781590171998&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Stoner</a> by John Edward Williams </li>
+</ul>
+
+Books I enjoyed this year were <a
+href="http://www.amazon.com/gp/search?keywords=9780385721677&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Oryx
+and Crake </a> by Margaret Atwood, <a
+href="http://www.amazon.com/gp/search?keywords=9780553575385&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">To
+Say Nothing of the Dog</a> by Connie Willis (you could say that 2013 was the
+Year of Connie Willis for me...she's great!), <a
+href="http://www.amazon.com/gp/search?keywords=9780061493348&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Telegraph
+Avenue</a> by Michael Chabon and <a
+href="http://www.amazon.com/gp/search?keywords=9780434018420&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The
+Gone-Away World</a> by Nick Harkaway.
+
+Oh, and <a
+href="http://www.amazon.com/gp/search?keywords=9781400033416&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Beloved</a>.
+Jeez that book was crazy good. I might read it again in 2014.
+
+
+If you really want to stay abreast of what I'm reading, follow <a href="http://www.goodreads.com/slackorama"> me on Goodreads</a>. Otherwise, see you next year!

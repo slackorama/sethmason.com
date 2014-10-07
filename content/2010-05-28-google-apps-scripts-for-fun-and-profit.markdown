@@ -1,5 +1,6 @@
 Title: Google Apps Script For Fun and Profit
 Tags: google, scripts, javascript
+Category: personal
 
 
 OK, so I have to admit that I have a mancrush on [Google Apps

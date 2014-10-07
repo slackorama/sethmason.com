@@ -1,5 +1,6 @@
-Title: "HOWTO: Invoke a shell script on a file on save with emacs"
-Tags: emacs
+Title: HOWTO: Invoke a shell script on a file on save with emacs
+Tags: emacs, tip
+Category: editor
 
 At my [current job](http://www.cheetahmail.com), we use a lot of
 [Template Toolkit](http://www.template-toolkit.org). Due to some design
@@ -7,12 +8,12 @@ decisions (that I consider a tad strange), we have to run a shell script
 on the template files (e.g. files that end with “.tt”) after they are
 saved in order for them to be displayed on the dev site.
 
-Since I started using emacs about two months ago, I’ve learned quite a
+Since I started using emacs about two months ago, I've learned quite a
 bit. A new thing on the learning heap is the
 [after-save-hook.](http://www.gnu.org/software/emacs/elisp/html_node/Saving-Buffers.html)
 Emacs to the rescue yet again.
 
-Here’s a emacs lisp function I wrote to automate the execution of the
+Here's a emacs lisp function I wrote to automate the execution of the
 script when a template file is saved:
 
     :::scheme

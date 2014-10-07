@@ -1,5 +1,6 @@
 Title: Moustaches For Good!
-Tags: donate
+Tags: donate, movember
+Category: personal
 
 
 Sooo...hey! How ya' doing? Long time no see. Hope you've been well. Aside from

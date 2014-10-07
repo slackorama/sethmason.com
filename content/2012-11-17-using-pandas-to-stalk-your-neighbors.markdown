@@ -1,5 +1,6 @@
 Title: Using Pandas to stalk your neighbors
 Tags: python, pandas
+Category: programming
 
 I picked up the book [Python for Data Analysis][pfda] as I've been seeing it
 mentioned in quite a few places. And so far, it's great. A very good high

@@ -1,5 +1,6 @@
 Title: Books I Read in 2012
 Tags: books
+Category: reading
 
 Oy vey. So, it seems like I only post here once a year and it's only to list
 books that I read. Well, at least I'm consistent right?
@@ -52,7 +53,7 @@ Art of Fielding</a> was really entertaining too though the ending was very stran
 <li><a href="http://www.amazon.com/gp/search?keywords=9780385334174&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Deadeye Dick</a> by Kurt Vonnegut </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780743431675&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Call for the Dead (George Smiley, #1)</a> by John le Carré </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780192801692&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Secret Agent</a> by Joseph Conrad </li>
-<li><a href="http://www.amazon.com/gp/search?keywords=9780140285604&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Cat’s Cradle</a> by Kurt Vonnegut </li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780140285604&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Cat's Cradle</a> by Kurt Vonnegut </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9781840224023&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Uncle Tom's Cabin</a> by Harriet Beecher Stowe </li>
 <li><a href="http://www.amazon.com/gp/search?keywords=9780140287820&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Death in Summer</a> by William Trevor </li>
 </ul>

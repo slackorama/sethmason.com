@@ -1,7 +1,7 @@
 Title: Machine specific startup files in BASH
 Tags: bash, configuration
 
-Here’s a helpful tip if you use a couple of different machines and need
+Here's a helpful tip if you use a couple of different machines and need
 specific things set up on a specific machine.
 
 Just add the following to your
@@ -26,5 +26,5 @@ Then, just put whatever machine specific files you want/need in
     > export FAVORITE_SMURF="Poppa Smurf"
     > export SMURF_LOVER=$HOME/bin/blue_love  
 
-That way, if I ever need something that’s specific to a machine, I just
+That way, if I ever need something that's specific to a machine, I just
 drop it in my .shell directory and away we go.
