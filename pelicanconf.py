@@ -38,6 +38,7 @@ EXTRA_PATH_METADATA = {
     'extra/google89d432cbb0319848.html': {'path':
         'google89d432cbb0319848.html'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/.htaccess': {'path': '.htaccess'},
     }
 STATIC_PATHS = [
     'images',
