@@ -1,7 +1,7 @@
 Title: Cygwin And SSH Tip
 Tags: cygwin, ssh, bash
 
-![cygwin logo]({filename}/images/8.png)
+![cygwin logo]({filename}/images/8.png){: .pull-right}
 
 Auto completion for `ssh` under cygwin was driving me nuts. It wasn't
 parsing the `~/.ssh/known_hosts` file like it should have and using

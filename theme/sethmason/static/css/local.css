@@ -41,6 +41,11 @@
     margin-bottom: 1em;
 }
 
+.article-image {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
 /**
  * Overrides of notebook CSS for static HTML export
 **/

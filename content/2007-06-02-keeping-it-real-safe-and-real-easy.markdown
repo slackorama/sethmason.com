@@ -1,7 +1,7 @@
 Title: Keeping It Real Safe And Real Easy
 Tags: subversion, configuration, vim
 
-![Subversion logo]({filename}/images/7.png)
+![Subversion logo]({filename}/images/7.png){: .center-block}
 
 OK, I've fallen in love with putting my home directory in
 [Subversion](http://subversion.tigris.org/ "A version control system to rival CVS").

@@ -6,7 +6,7 @@ I've been using [Dojo](http://www.dojotoolkit.org) for a couple of
 months now and I really like it as it makes writing cross-browser
 JavaScript a breeze.
 
-![Emacs 4EVA!!]({filename}/images/13.png)
+![Emacs 4EVA!!]({filename}/images/13.png){: .pull-left .article-image}
 
 I've also been using [Emacs](http://www.gnu.org/software/emacs/) with
 [YASnippet](http://pluskid.lifegoo.com/upload/project/yasnippet/doc/index.html)

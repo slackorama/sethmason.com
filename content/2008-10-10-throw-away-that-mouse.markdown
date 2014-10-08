@@ -2,8 +2,7 @@ Title: Throw away that mouse
 Tags: firefox, tip
 Category: tools
 
-![Mouseless browsing
-screenshot]({filename}/images/12.png)
+![Mouseless browsing screenshot]({filename}/images/12.png){: .pull-right}
 
 I'm not a big fan of using the mouse. It pains me to reach for it to
 accomplish something. That's why I was really excited to find the

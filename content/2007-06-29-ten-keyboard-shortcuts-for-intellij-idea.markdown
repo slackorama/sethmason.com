@@ -1,7 +1,8 @@
 Title: Ten Keyboard Shortcuts for IntelliJ IDEA
+Category: editor
 Tags: idea
 
-<center>![IntellJ Shortcuts]({filename}/images/10.png)</center>
+![IntellJ Shortcuts]({filename}/images/10.png){: .center-block}
 
 <br />
 For my [day job](http://www.ign.com "IGN") I use Java quite a bit. And

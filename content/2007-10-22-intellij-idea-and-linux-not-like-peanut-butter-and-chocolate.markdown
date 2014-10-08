@@ -1,4 +1,5 @@
-Title: "Intellij IDEA and Linux: Not Like Peanut Butter and Chocolate"
+Title: Intellij IDEA and Linux: Not Like Peanut Butter and Chocolate
+Category: editor
 Tags: intellij, linux, idea
 
 I love me some Intellij and I love me some Linux. Unfortunately, they

@@ -2,7 +2,9 @@ Title: Vim Tip: Select Column
 Tags: vim
 Category: editor
 
-![Columns in vim]({filename}/images/11.png) How many times have you wanted
+![Columns in vim]({filename}/images/11.png){: .pull-right .img-rounded}
+
+How many times have you wanted
 to replace a column of text with something. With [vim](http://vim.org)
 it's easy. Just use `CTRL-V` to select a column using a visual block.
 

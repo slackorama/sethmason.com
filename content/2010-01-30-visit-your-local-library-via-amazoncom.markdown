@@ -2,9 +2,8 @@ Title: Visit your local library via Amazon.com
 Tags: amazon, worldcat, bookmarklet
 Category: tools
 
-<figure class="left">
-<img src="/images/20100130.gif" width="79" height="79"/>
-</figure>
+![xISBN]({filename}/images/20100130.gif){: .pull-left .article-image}
+
 I love reading.  It's how I get most my knowledge (or lack thereof).  And I
 also really like [bookmarklets][0].  They make browsing the web much easier.
 
