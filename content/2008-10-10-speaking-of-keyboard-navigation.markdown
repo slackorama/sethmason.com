@@ -1,6 +1,6 @@
 Title: Speaking of keyboard navigation....
 Tags: google
-Category: tool
+Category: tools
 
 Did you know that you can navigate [Google](http://www.google.com)
 search results with your keyboard?

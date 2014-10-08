@@ -1,5 +1,6 @@
 Title: Lisp Fun
 Tags: lisp, screencasts
+Category: programming
 
 Interested in learning
 [Lisp](http://en.wikipedia.org/wiki/Lisp_%28programming_language%29)? A
@@ -9,7 +10,8 @@ and so far there are three videos up. It's about building a web
 application that is a clone of [Reddit](http://www.reddit.com). The
 subject of the videos so far are writing it, developing tests and
 refactoring. They each clock in at about twenty minutes and are quite
-helpful.\
+helpful.
+
 It looks like the creator, one Eric Normand, has some pretty big plans
 for the site. Let's hope that he is able to do it. I know I'm rooting
 for him.

@@ -1,5 +1,6 @@
 Title: Editing Huge Amounts of Files Easily
 Tags: shell, sed, find
+Category: programming
 
 Where I [work](http://www.ign.com), we have tons of static html files
 that are published using our custom built Content Management System.
@@ -8,8 +9,8 @@ example, the latest case involved a change involving the size of ads
 that were on the pages. Rather than use publishing and database
 resources just to make this relatively simple change, I use the power of
 the shell. Specifically, I use
-[code\>find](http://unixhelp.ed.ac.uk/CGI/man-cgi?find),
-[code\>sed](http://www.grymoire.com/Unix/Sed.html) and a shell script
+[find](http://unixhelp.ed.ac.uk/CGI/man-cgi?find),
+[sed](http://www.grymoire.com/Unix/Sed.html) and a shell script
 that I wrote. It's based on a shell script in the [Unix Power
 Tools](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FPower-Tools-Third-Shelley-Powers%2Fdp%2F0596003307%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1191730398%26sr%3D8-1&tag=slackorama-20&linkCode=ur2&camp=1789&creative=9325)
 book.
@@ -25,7 +26,7 @@ more complex things with `find` like find all files modified in the last
 2 days by Frank if you needed to change files like that.
 
 The results of this will be passed off to a file named `replace.sh`
-located in my `~/bin` directory. `Replace.sh` is reproduced here:
+located in my `~/bin` directory. `replace.sh` is reproduced here:
 
     ::bash
     #!/bin/sh

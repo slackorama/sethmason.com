@@ -1,5 +1,6 @@
 Title: Resolutions
-Tags: personal
+Tags: resolutions
+Category: personal
 
 I have been mulling these over for the past couple of days but I thought
 I'd post them to the internets in hopes of injecting some accountability

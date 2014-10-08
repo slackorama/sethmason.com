@@ -1,5 +1,6 @@
 Title: Python and Spotify Together At Last
 Tags: python, spotify
+Category: music
 
 Here's a simple script to show the currently playing song in Spotify. All you
 have to do is put it on your `$PATH` and run:

@@ -1,5 +1,6 @@
 Title: Cost of try/catch in JavaScript
 Tags: javascript, benchmark
+Category: programming
 
 I know that in Java, using a try/catch is fairly expensive vs. a if
 check. Since JavaScript has the same syntax for the most part, I wrote

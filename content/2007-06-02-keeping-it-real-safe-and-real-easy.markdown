@@ -1,5 +1,6 @@
 Title: Keeping It Real Safe And Real Easy
 Tags: subversion, configuration, vim
+Category: tools
 
 ![Subversion logo]({filename}/images/7.png){: .center-block}
 
@@ -36,12 +37,11 @@ So now when I'm on a system, I'll have the same look and feel and same
 functionality as the utilities I use will be available in my `~/bin`
 directory.
 
-For those astute readers, you'll notice that I don't have a .vimrc file
-in there. That's because I'm using an excellent tip from Amir
-Salihefendic\
-about [taming your vim config](http://amix.dk/blog/viewEntry/162).
-Basically on each system I have a specialized but simple .vimrc that
-sources the vim\_local for what it needs.
+For those astute readers, you'll notice that I don't have a .vimrc file in
+there. That's because I'm using an excellent tip from Amir Salihefendic about
+[taming your vim config](http://amix.dk/blog/viewEntry/162). Basically on each
+system I have a specialized but simple .vimrc that sources the vim\_local for
+what it needs.
 
 I've found this setup works great on the many different systems I use
 throughout a given week (e.g. Windows, Mac and Linux). And I'm safe in

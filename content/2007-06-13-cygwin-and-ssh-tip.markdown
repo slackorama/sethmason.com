@@ -1,5 +1,6 @@
 Title: Cygwin And SSH Tip
 Tags: cygwin, ssh, bash
+Category: shell
 
 ![cygwin logo]({filename}/images/8.png){: .pull-right}
 

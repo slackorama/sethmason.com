@@ -1,5 +1,8 @@
 Title: Google Code Search to the rescue
 Tags: google, coding
+Category: programming
+
+**UPDATE:** Google Code Search was shutdown so this fun doesn't apply anymore.
 
 Mmkay, this tip is probably a gazillion years late but [Google Code
 Search](http://www.google.com/codesearch) is a great resource for a

@@ -1,5 +1,6 @@
 Title: .bashrc Fun With Subversion
 Tags: subversion, bash
+Category: shell
 
 Do you use Subversion a lot from the command line in bash? Then this tip
 is for you.

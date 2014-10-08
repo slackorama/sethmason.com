@@ -1,7 +1,9 @@
 Title: Linux Cut and Paste
 Tags: linux
+Category: shell
 
 ![Linux logo]({filename}/images/9.png){: .pull-left}
+
 Since I'm in the process of switching to [Ubuntu](www.ubuntu.com/) I've
 been hunting down tips and tricks. One great resource is the [Ubuntu
 Blog](http://ubuntu.wordpress.com). Today they had a [great tip for

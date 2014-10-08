@@ -1,5 +1,6 @@
 Title: Debugging Is Sexy Good Times
-Tags: Javascript, Firebug, Firefox
+Tags: javascript, firebug, firefox
+Category: programming
 
 I love me some [JSON](http://json.org "JavaScript Object Notation").
 The problem with it is that it's not too human readable when you need to

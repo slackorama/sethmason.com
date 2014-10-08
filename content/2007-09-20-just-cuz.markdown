@@ -1,5 +1,6 @@
 Title: Just Cuz'
 Tags: lisp
+Category: personal
 
 OK, I've decided that the next programming langauge I learn is Lisp. I
 just love all the parenthesis I guess. An excellent [Lisp

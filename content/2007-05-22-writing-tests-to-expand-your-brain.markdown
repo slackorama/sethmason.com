@@ -1,6 +1,7 @@
 Title: Writing Tests For Fun And Profit
 Tags: tests, javascript
 Slug: writing-tests-to-expand-your-brain
+Category: programming
 
 Learning a new programming language historically starts off with the
 classic “Hello World” example. I've probably written a variation on that
@@ -17,7 +18,7 @@ they serve as an extra source of documentation about what you are trying
 to do (e.g. “How do I use `gsub` again? Oh yeah, it's in that string
 test I wrote?”) and finally writing tests is fun.
 
-**An Example**
+### An Example ###
 After ignoring it for way too long, I recently started trying out the
 [Yahoo! User Interface
 Library](http://developer.yahoo.com/yui "Yahoo! User Interface Library").
