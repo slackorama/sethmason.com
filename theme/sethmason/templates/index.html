@@ -8,7 +8,7 @@
 		<h2 itemprop="name headline">{{ article.title }}</h2>
 	</a>
 	<time datetime="{{ article.date.isoformat() }}" itemprop="datePublished">{{ article.locale_date }}</time>
-	&nbsp;—&nbsp;
+
 	<div itemprop="articleBody" class="article-body">{{ article.content }}</div>
 
         <div itemprop="keywords"><a href="{{ SITEURL }}/{{article.url }}#disqus_thread">Add a comment</a></div>
