@@ -2,3 +2,5 @@ _site
 *.pyc
 output
 cache/
+pelican.pid
+srv.pid
