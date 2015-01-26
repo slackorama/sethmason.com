@@ -1,4 +1,5 @@
 Title: Contact
+Description: How to contact Seth Mason if one is so inclined to do so.
 
 Contact
 -------

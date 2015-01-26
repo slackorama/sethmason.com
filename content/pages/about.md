@@ -1,4 +1,5 @@
 Title: About
+Description: A very abbreviated history of the shennanigans that got us here.
 
 About
 -----
