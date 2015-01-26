@@ -1,7 +1,7 @@
 Title: About
 
 About
-=====
+-----
 
 Hi, my name is Seth Mason and this is my personal website.
 

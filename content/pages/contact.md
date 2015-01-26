@@ -1,15 +1,11 @@
 Title: Contact
 
 Contact
-=======
-
-
-
+-------
 
 Rather than deal with spammers and other nasties out there, I'm opting to
 route contacts through [Disqus](http://disqus.com ).  Let's see how this goes,
 shall we?
-
 
 Thanks for stopping by!
 
