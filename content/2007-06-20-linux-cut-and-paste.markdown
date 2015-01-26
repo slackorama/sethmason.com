@@ -4,11 +4,11 @@ Category: shell
 
 ![Linux logo]({filename}/images/9.png){: .pull-left}
 
-Since I'm in the process of switching to [Ubuntu](www.ubuntu.com/) I've
+Since I'm in the process of switching to [Ubuntu](https://www.ubuntu.com/) I've
 been hunting down tips and tricks. One great resource is the [Ubuntu
-Blog](http://ubuntu.wordpress.com). Today they had a [great tip for
+Blog](https://ubuntu.wordpress.com). Today they had a [great tip for
 copying and pasting in
-GNOME](http://ubuntu.wordpress.com/2006/12/12/cut-copy-paste-clipboard-management/).
+GNOME](https://ubuntu.wordpress.com/2006/12/12/cut-copy-paste-clipboard-management/).
 
 Basically, what you do is highlight the text in one application (for
 example Firefox), switch to another application and then click the

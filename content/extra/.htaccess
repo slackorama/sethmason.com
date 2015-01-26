@@ -1,1 +1,3 @@
 ErrorDocument 404 /404.html
+
+redirect permanent /about http://sethmason.com/about.html

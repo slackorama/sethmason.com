@@ -5,7 +5,9 @@ About
 
 Hi, my name is Seth Mason and this is my personal website.
 
-I'm a Software Engineer and I also enjoy writing Python, Perl, JavaScript, CSS and HTML.  If you have a question or would like to see my resume, feel free to drop me a line via my [contact](/pages/contact.html).
+I'm a Software Engineer and I also enjoy writing Python, Perl, JavaScript, CSS
+and HTML.  If you have a question or would like to see my resume, feel free to
+drop me a line via my [contact]({filename}/pages/contact.md).
 
 I have worked for EdgeCast Networks since July of 2011 but nothing on this site is endorsed by them.
 
