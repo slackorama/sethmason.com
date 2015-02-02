@@ -10,13 +10,13 @@
 	<!--[if lt IE 9]>
 		<script src="{{ SITEURL }}/theme/html5.js"></script>
 		<![endif]-->
-	<link href="{{ SITEURL }}/theme/css/ipython.css" rel="stylesheet">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        {% assets filters="cssmin", output="css/style.min.css", "css/ipython.css", "css/pygments.css", "css/local.css" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+        {% endassets %}
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
-	<link href="{{ SITEURL }}/theme/css/local.css" rel="stylesheet">
-	<link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
-	{% block head %}{% endblock %}
+		{% block head %}{% endblock %}
 </head>
 <body>
 <div class="container">

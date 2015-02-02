@@ -55,7 +55,7 @@ LINKEDIN_URL='http://www.linkedin.com/pub/sethmason'
 FACEBOOK_URL='http://www.facebook.com/sethmason'
 
 PLUGIN_PATHS = ["plugins/pelican/plugins"]
-PLUGINS=['sitemap',]
+PLUGINS=['sitemap', 'minify', 'assets']
 
 SITEMAP = {
     'format': 'xml',
