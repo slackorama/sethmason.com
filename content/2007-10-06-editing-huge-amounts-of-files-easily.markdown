@@ -9,7 +9,7 @@ example, the latest case involved a change involving the size of ads
 that were on the pages. Rather than use publishing and database
 resources just to make this relatively simple change, I use the power of
 the shell. Specifically, I use
-[find](http://unixhelp.ed.ac.uk/CGI/man-cgi?find),
+[find](http://linuxcommand.org/man_pages/find1.html),
 [sed](http://www.grymoire.com/Unix/Sed.html) and a shell script
 that I wrote. It's based on a shell script in the [Unix Power
 Tools](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FPower-Tools-Third-Shelley-Powers%2Fdp%2F0596003307%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1191730398%26sr%3D8-1&tag=slackorama-20&linkCode=ur2&camp=1789&creative=9325)
