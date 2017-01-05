@@ -1,0 +1,61 @@
+Title: Books I Read in 2016
+Tags: books
+Category: reading
+
+Ah nuts. It's been a whole year without a single post here. Anyways, at least
+you get one post a year from me. That's more than some blogs I suppose.
+
+Only 21 books this year! That's a grave offense. I must do better this year. Go
+2017!
+
+By far, the most terrifying (and timely) was "In the Garden of Beasts." Imagine
+watching the rise of Hitler, screaming about it and no one does anything.
+Imagine. It was much scarier than the Sarah Pinborough books.
+
+Colson
+Whitehead's
+[book](https://www.amazon.com/Underground-Railroad-National-Winner-Oprahs-ebook/dp/B01A4ATV0A/ref=sr_1_sc_1) was
+amazing. Heartbreaking and powerful all in one tiny book. Go read it now. I'll wait here until you get back.
+
+And I cannot recommend reading
+"[Weapons of Math Destruction](https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815/ref=sr_1_1)"
+after watching "(Black Mirror)[https://en.wikipedia.org/wiki/Black_Mirror]."
+That will drive you towards a life of digital minimalism where you'll be handing
+pieces of paper to people to securely deliver messages.
+
+Without further ado, the books I read in 2016. See you next year (unless "Black
+Mirror" sets you off):
+
+<ul>
+<li>In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin by Erik Larson (5 stars)</li>
+<li>(Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy)[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815/ref=sr_1_1] by Cathy O'Neil (4 stars)</li>
+<li>Binti (Binti, #1) by Nnedi Okorafor (4 stars)</li>
+<li>The Sellout by Paul Beatty (4 stars)</li>
+<li>Perfume: The Story of a Murderer by Patrick Süskind (2 stars)</li>
+<li>The Windup Girl by Paolo Bacigalupi (4 stars)</li>
+<li><a href="https://www.amazon.com/Underground-Railroad-National-Winner-Oprahs-ebook/dp/B01A4ATV0A/ref=sr_1_sc_1">The Underground Railroad<a> by Colson Whitehead (5 stars)</li>
+<li>The Drowned Cities by Paolo Bacigalupi (5 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780385352871&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Water Knife</a> by Paolo Bacigalupi (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781566894098&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Story of My Teeth</a> by Valeria Luiselli (4 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780756410841&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Heroine Complex (Heroine Complex, #1)</a> by Sarah Kuhn (4 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9781250077004&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Furiously Happy: A Funny Book About Horrible Things</a> by Jenny  Lawson (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780525951575&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Freedom™ (Daemon, #2)</a> by Daniel Suarez (5 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780451228734&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Daemon</a> by Daniel Suarez (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780575089532&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Chosen Seed (The Dog-Faced Gods, #3)</a> by Sarah Pinborough (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780812993547&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Between the World and Me</a> by Ta-Nehisi Coates (5 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780575089495&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Shadow of the Soul (The Dog-Faced Gods, #2)</a> by Sarah Pinborough (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780575089464&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">A Matter of Blood (The Dog-Faced Gods, #1)</a> by Sarah Pinborough (4 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780679740674&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">The Man in the High Castle</a> by Philip K. Dick (3 stars)</li>
+<li><a href="http://www.amazon.com/gp/search?keywords=9780609809112&amp;index=books&amp;linkCode=qs&amp;tag=slackorama-20">Metal Cowboy: Tales from the Road Less Pedaled</a> by Joe Kurmaskie (3 stars)</li>
+<li>Moonwalking with Einstein: The Art and Science of Remembering Everything by Joshua Foer (4 stars)</li>
+</ul>
+
+
+If you are curious, I use
+[a python script](https://gist.github.com/d879bafad762d1c2b2c3) to generate
+the list of books. (You'll need your Goodreads key in order to use it.) Then I
+just paste it into [GNU Emacs](https://www.gnu.org/software/emacs/).
+
+You can see the other years [here]({tag}books). I've managed to do this for 7
+years running. Hooray for narcissistic me!
+
