@@ -11,7 +11,7 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 production = 'slackorama@slackorama'
-dest_path = '/home/slackorama/sethmason.com.new/'
+dest_path = '/home/slackorama/sethmason.com/'
 
 def clean():
     if os.path.isdir(DEPLOY_PATH):
