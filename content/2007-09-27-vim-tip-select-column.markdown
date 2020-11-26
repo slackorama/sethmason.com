@@ -2,7 +2,7 @@ Title: Vim Tip: Select Column
 Tags: vim
 Category: editor
 
-![Columns in vim]({filename}/images/11.png){: .pull-right .img-rounded}
+![Columns in vim]({static}/images/11.png){: .pull-right .img-rounded}
 
 How many times have you wanted
 to replace a column of text with something. With [vim](http://vim.org)

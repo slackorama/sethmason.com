@@ -25,6 +25,6 @@ service (but imagine it's a bazillion lines long):
 Just wrap that in an `eval` function, plug it into the console and you
 get back a nice little tree of your data in the DOM view.
 
-![console screencap]({filename}/images/5.png)
+![console screencap]({static}/images/5.png)
 
 Now isn't that sexy?

@@ -3,7 +3,7 @@
 
 {% block title %}{% if articles_page.number > 1 %}Index {{articles_page.number}}  — {% endif %}{{ SITENAME }}{% endblock %}
 
-{% block content %}        
+{% block content %}
 {% if articles %}
 {% for article in articles_page.object_list %}        
 <div class="article" itemscope itemtype="http://schema.org/BlogPosting">

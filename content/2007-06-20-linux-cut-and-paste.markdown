@@ -2,7 +2,7 @@ Title: Linux Cut and Paste
 Tags: linux
 Category: shell
 
-![Linux logo]({filename}/images/9.png){: .pull-left}
+![Linux logo]({static}/images/9.png){: .pull-left}
 
 Since I'm in the process of switching to [Ubuntu](https://www.ubuntu.com/) I've
 been hunting down tips and tricks. One great resource is the [Ubuntu

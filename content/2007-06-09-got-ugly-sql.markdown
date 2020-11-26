@@ -2,7 +2,7 @@ Title: Got Ugly SQL?
 Category: programming
 Tags: sql, prettyprinting, formatting
 
-![SQL Formatter screen shot]({filename}/images/6.png){: .pull-right}
+![SQL Formatter screen shot]({static}/images/6.png){: .pull-right}
 
 Sometimes you have a bunch of SQL statements that are very long, very
 verbose and very unreadable. Would you spend minutes of your time to

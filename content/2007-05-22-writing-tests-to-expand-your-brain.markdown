@@ -57,6 +57,6 @@ method in the global library and type it so my brain remembered it.)
 So, now I drop the test file into my test runner and here we have the
 results:
 
-![It's all green!]({filename}/images/4.png)
+![It's all green!]({static}/images/4.png)
 
 Can't you just feel your brain expanding with the possibilities?

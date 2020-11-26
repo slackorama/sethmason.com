@@ -3,7 +3,7 @@ Tags: woodworking toolbox
 Category: woodworking
 
 
-![A Carpenter's toolbox]({filename}/images/toolbox.jpg){: .center-block}
+![A Carpenter's toolbox]({static}/images/toolbox.jpg){: .center-block}
 
 So, I finally got around to making the toolbox from the 1940's from
 [St. Roy Underhill](http://shopclass.popularwoodworking.com/p-877-the-woodwrights-shop-s21-ep03-toolbox-from-the-1940s.aspx).
@@ -18,7 +18,7 @@ from [Lee Valley](http://www.leevalley.com). Overall, I'm pretty happy with
 the way it came out. And I got some nice compliements at
 [Off the Saw](http://www.offthesaw.com) last week.
 
-![Full toolbox]({filename}/images/toolbox_full.jpg){: .center-block}
+![Full toolbox]({static}/images/toolbox_full.jpg){: .center-block}
 
 Learned a ton from this so that's good. For example, using a
 [Stanley #78 Rabbet plane](http://www.supertool.com/StanleyBG/stan10.htm#num78)

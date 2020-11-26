@@ -15,11 +15,11 @@ made my own Greasemonkey script which I'm calling [TidyBz2](https://gist.github.
 
 Here's the before shot:
 
-![A Better Bugzilla Before]({filename}/images/20100218_tidybz2-pre.png){: .center-block}
+![A Better Bugzilla Before]({static}/images/20100218_tidybz2-pre.png){: .center-block}
 
 Here's the after shot:
 
-![A Better Bugzilla After]({filename}/images/20100218_tidybz2-post.png){: .center-block}
+![A Better Bugzilla After]({static}/images/20100218_tidybz2-post.png){: .center-block}
 
 It hides the huge header, makes the title of the issue much more prominent and
 fixes some other formatting nits I disliked.  Information that I think is more
