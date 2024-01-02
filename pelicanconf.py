@@ -51,6 +51,9 @@ TWITTER_USERNAME='slackorama'
 GITHUB_URL='https://github.com/slackorama'
 LINKEDIN_URL='http://www.linkedin.com/pub/sethmason'
 FACEBOOK_URL='http://www.facebook.com/sethmason'
+INSTAGRAM_URL='https://www.instagram.com/slackorama'
+GOODREADS_URL='https://www.goodreads.com/user/show/1519786-slackorama'
+STRAVA_URL='https://www.strava.com/athletes/16584859'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
