@@ -12,7 +12,7 @@ pelican==4.5.2
 Pygments==2.7.4
 python-dateutil==2.8.1
 pytz==2020.4
-requests==2.25.0
+requests==2.32.4
 six==1.15.0
 Unidecode==1.1.1
 urllib3==1.26.5
