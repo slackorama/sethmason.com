@@ -57,8 +57,8 @@ STRAVA_URL='https://www.strava.com/athletes/16584859'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-PLUGIN_PATHS = [os.path.expanduser("~/projects/pelican-plugins")]
-PLUGINS=['sitemap', 'assets']
+# PLUGIN_PATHS = [os.path.expanduser("~/projects/pelican-plugins")]
+PLUGINS=['pelican.plugins.sitemap', 'pelican.plugins.webassets']
 
 SITEMAP = {
     'format': 'xml',
