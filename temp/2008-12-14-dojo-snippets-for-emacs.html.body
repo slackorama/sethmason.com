@@ -1,7 +1,0 @@
-	<p>I&#8217;ve been using <a href="http://www.dojotoolkit.org">Dojo</a> for a couple of months now and I really like it as it makes writing cross-browser JavaScript a breeze.  </p>
-
-	<p><img src="/images/13.png" style="float: right;" alt="" /></p>
-
-	<p>I&#8217;ve also been using <a href="http://www.gnu.org/software/emacs/">emacs</a> with <a href="http://pluskid.lifegoo.com/upload/project/yasnippet/doc/index.html">YASnippet</a> for a bit now too.  YASnippet is a plugin for emacs that allows you to define a snippet that&#8217;ll get transformed into something much bigger in your file.  It saves you a lot of typing as you can define areas in your snippet where you get prompted to enter text and it&#8217;ll autofill with your entries.  Very handy, let me tell you.  There&#8217;s a <a href="http://www.youtube.com/watch?v=vOj7btx3ATg">screencast on YouTube</a> showing how powerful it is.</p>
-
-	<p>Which brings me to the point of this post. I&#8217;ve created a package of snippets aimed at people writing Dojo based JavaScript.  It&#8217;s hosted up on <a href="http://www.github.com/slackorama/dojo-yasnippets/tree/master">GitHub</a> if you would like to use it.  Currently, it only includes (what I feel to be) the major functions but feel free to contact me if you&#8217;d like to add more.</p>
