@@ -17,7 +17,7 @@ uv run pelican -r -l
 Then to publish it I ran:
 
 ``` shell
-uv run pelican -s pelicanconf.py
+uv run pelican -s publishconf.py
 rsync -avz --delete ./output/ slackorama:/home/slackorama/sethmason.com/
 ```
 
