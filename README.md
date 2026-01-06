@@ -22,3 +22,6 @@ rsync -avz --delete ./output/ slackorama:/home/slackorama/sethmason.com/
 ```
 
 I guess I can kill the fabfile.py here. It's probably overkill.
+
+
+But now I set up a workflow to automate it.
