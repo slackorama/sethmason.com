@@ -46,6 +46,4 @@ jobs:
       - name: Rsync site to host
         if: github.event_name == 'push' || github.event.inputs.confirm == 'DEPLOY'
         run: |
-          rsync -avz --delete \
-            output/ \
-            slackorama@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}
+          rsync -avz --delete ./output/ slackorama@${{ secrets.SSH_HOST }}:/home/slackorama/sethmason.com/
