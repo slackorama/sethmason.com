@@ -13,7 +13,7 @@ ordered-set==4.1.0
 pelican==4.11.0.post0
 pelican-sitemap==1.2.2
 pelican-webassets==2.1.0
-pygments==2.18.0
+pygments==2.20.0
 python-dateutil==2.9.0.post0
 rich==14.2.0
 six==1.17.0
